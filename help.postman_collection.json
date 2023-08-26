@@ -7,104 +7,247 @@
 	},
 	"item": [
 		{
-			"name": "/api/admin/registration",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"login\":\"admin\",\n    \"password\":\"admin\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
+			"name": "admin",
+			"item": [
+				{
+					"name": "/api/admin/registration",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"login\":\"admin\",\n    \"password\":\"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/admin/registration",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"admin",
+								"registration"
+							]
 						}
-					}
+					},
+					"response": []
 				},
-				"url": {
-					"raw": "http://localhost:8080/api/admin/registration",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"admin",
-						"registration"
-					]
+				{
+					"name": "/api/admin/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"login\":\"admin\",\n    \"password\":\"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/admin/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"admin",
+								"login"
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		},
 		{
-			"name": "/api/admin/login",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"login\":\"admin\",\n    \"password\":\"admin\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
+			"name": "news",
+			"item": [
+				{
+					"name": "/api/news/",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjRkOTc1NDVmNzVhNzBkZGYzZjg5MDc4IiwiaWF0IjoxNjkxOTczMDY0LCJleHAiOjE2OTE5NzY2NjR9.P5xr01JfG3XKS4EOjefQ-kq7KtVE38HjpD3bsTJYJoM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\":\"title\",\n    \"author\":\"author\",\n    \"body\":\"body\",\n    \"publisher\":\"publisher\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/news/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"news",
+								""
+							]
 						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:8080/api/admin/login",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"admin",
-						"login"
-					]
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		},
 		{
-			"name": "/api/news/",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjRkOTc1NDVmNzVhNzBkZGYzZjg5MDc4IiwiaWF0IjoxNjkxOTczMDY0LCJleHAiOjE2OTE5NzY2NjR9.P5xr01JfG3XKS4EOjefQ-kq7KtVE38HjpD3bsTJYJoM",
-							"type": "string"
+			"name": "reviews",
+			"item": [
+				{
+					"name": "/api/reviews/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/reviews/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"reviews",
+								""
+							]
 						}
-					]
+					},
+					"response": []
 				},
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"title\":\"title\",\n    \"author\":\"author\",\n    \"body\":\"body\",\n    \"publisher\":\"publisher\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
+				{
+					"name": "/api/reviews/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/reviews/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"reviews",
+								"id"
+							]
 						}
-					}
+					},
+					"response": []
 				},
-				"url": {
-					"raw": "http://localhost:8080/api/news/",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"news",
-						""
-					]
+				{
+					"name": "/api/reviews/id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/reviews/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"reviews",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/reviews/",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjRkOTc1NDVmNzVhNzBkZGYzZjg5MDc4IiwiaWF0IjoxNjkzMDU2NjM3LCJleHAiOjE2OTMwNjAyMzd9.6kuy4HjUVzu1K5fCKmMli-Gqr02eeIRdesP3-avDKUQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Maria Dmytruk\",\n    \"job\": \"Volunteer\",\n    \"title\": \"Together, Building a Brighter Future\",\n    \"body\": \"Join us in weaving a future of possibility, where every life is cherished, and every dream is nurtured. Together, we can change the trajectory of countless lives, one act of kindness at a time.\",\n    \"foto\": \"review-4.png\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/reviews/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"reviews",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/reviews/",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/reviews/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"reviews",
+								""
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		}
 	]
 }
