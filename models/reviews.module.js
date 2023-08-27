@@ -1,22 +1,28 @@
 const mongoose = require('mongoose');
 
 const ReviewsSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true
-  },
-  job: {
-    type: String,
-    required: true
-  },
-  title: {
-    type: String,
-    required: true
-  },
-  body: {
-    type: String,
-    required: true
-  },
+  translations: [{
+    language: {
+      type: String, // ('en', 'ua')
+      required: true,
+    },
+    name: {
+      type: String,
+      required: true,
+    },
+    job: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    body: {
+      type: String,
+      required: true,
+    },
+  }],
   foto: {
     type: String,
     default: "foto.png",
