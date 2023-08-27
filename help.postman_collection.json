@@ -190,7 +190,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjRkOTc1NDVmNzVhNzBkZGYzZjg5MDc4IiwiaWF0IjoxNjkzMDU2NjM3LCJleHAiOjE2OTMwNjAyMzd9.6kuy4HjUVzu1K5fCKmMli-Gqr02eeIRdesP3-avDKUQ",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjRkOTc1NDVmNzVhNzBkZGYzZjg5MDc4IiwiaWF0IjoxNjkzMTUxMDgzLCJleHAiOjE2OTMxNTQ2ODN9.D2AQZd8h_kbgRwRsY01RIdLCDOXGaw0dGogawuJhYSQ",
 									"type": "string"
 								}
 							]
@@ -199,7 +199,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"Maria Dmytruk\",\n    \"job\": \"Volunteer\",\n    \"title\": \"Together, Building a Brighter Future\",\n    \"body\": \"Join us in weaving a future of possibility, where every life is cherished, and every dream is nurtured. Together, we can change the trajectory of countless lives, one act of kindness at a time.\",\n    \"foto\": \"review-4.png\"\n}",
+							"raw": "{\n    \"translations\": [\n        {\n            \"language\":\"en\",\n            \"name\": \"Anna Shevchenko\",\n            \"job\": \"Volunteer\",\n            \"title\": \"Together, Building a Brighter Future\",\n            \"body\": \"At HealingHaven Ukraine, our mission is driven by the belief that every individual deserves compassion, support, and a chance to thrive. With unwavering dedication, we stand hand in hand with the Ukrainian diaspora, igniting hope and empowering lives. Join us on this journey of healing, as we forge a brighter future for those affected by the ravages of war.\"\n        },\n        {\n            \"language\":\"ua\",\n            \"name\": \"Анна Шевченко\",\n            \"job\": \"Волонтер\",\n            \"title\": \"Разом будуємо світле майбутнє\",\n            \"body\": \"У HealingHaven Ukraine наша місія ґрунтується на вірі в те, що кожна людина заслуговує на співчуття, підтримку та можливість процвітати. З непохитною відданістю ми стоїмо пліч-о-пліч з українською діаспорою, запалюючи надію та зміцнюючи життя. Приєднуйтесь до нас у цій подорожі зцілення, оскільки ми будуємо світле майбутнє для тих, хто постраждав від спустошливої війни.\"\n        }\n    ],\n    \"foto\": \"review-4.png\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -241,6 +241,139 @@
 							"path": [
 								"api",
 								"reviews",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "projects",
+			"item": [
+				{
+					"name": "/api/projects/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/projects/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"projects",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/projects/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/projects/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"projects",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/projects/id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/projects/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"projects",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/projects/",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjRkOTc1NDVmNzVhNzBkZGYzZjg5MDc4IiwiaWF0IjoxNjkzMTUxMDgzLCJleHAiOjE2OTMxNTQ2ODN9.D2AQZd8h_kbgRwRsY01RIdLCDOXGaw0dGogawuJhYSQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"translations\": [\n        {\n            \"language\": \"en\",\n            \"title\" :\"OpportunityConnect\",\n            \"slogan\": \"Building new bridges and fostering connections\",\n            \"description\": \"In the wake of conflict and displacement, many talented Ukrainians have found themselves in foreign lands, seeking refuge and a chance to rebuild their lives.OpportunityConnect Ukraine emerges as a beacon of hope, actively identifying and forging partnerships with companies willing to welcome Ukrainian talent. Our goal is not only to secure jobs but to empower individuals with the tools to flourish professionally, contributing positively to their host communities and embracing new horizons. /n/n In the wake of conflict and displacement, many talented Ukrainians have found themselves in foreign lands, seeking refuge and a chance to rebuild their lives. OpportunityConnect Ukraine emerges as a beacon of hope, actively identifying and forging partnerships with companies willing to welcome Ukrainian talent. Our goal is not only to secure jobs but to empower individuals with the tools to flourish professionally, contributing positively to their host communities and embracing new horizons.\",\n            \"goals\": [\n                {\n                    \"tag\": \"Global Networking\",\n                    \"desc\": \"Establish a robust network of employers, businesses, and organizations open to hiring and supporting Ukrainian talent.\"\n                },{\n                    \"tag\": \"Tailored Employment Matchmaking\",\n                    \"desc\": \"Facilitate personalized connections between skilled Ukrainians and companies seeking their specific skills, qualifications, and expertise.\"\n                },{\n                    \"tag\": \"Skills Development\",\n                    \"desc\": \"Offer training, mentorship, and resources to empower Ukrainians in enhancing their professional abilities and adapting to new work environments.\"\n                },{\n                    \"tag\": \"Empowerment through Knowledge\",\n                    \"desc\": \"Provide guidance on navigating foreign job markets, including resume writing, interview skills, and cultural integration.\"\n                },{\n                    \"tag\": \"Cultural Integration\",\n                    \"desc\": \"Foster a supportive community that assists Ukrainians in adapting to new cultures, workplace norms, and societal contexts.\"\n                },{\n                    \"tag\": \"Sustainable Empowerment\",\n                    \"desc\": \"Cultivate long-term partnerships that not only secure immediate employment but also pave the way for ongoing professional growth.\"\n                }\n            ],\n            \"criteria\": [\n                {\n                    \"tag\": \"Displaced Ukrainians\",\n                    \"desc\": \"Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries.\"\n                },{\n                    \"tag\": \"Displaced Ukrainians\",\n                    \"desc\": \"Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries.\"\n                },{\n                    \"tag\": \"Displaced Ukrainians\",\n                    \"desc\": \"Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries.\"\n                },{\n                    \"tag\": \"Displaced Ukrainians\",\n                    \"desc\": \"Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries.\"\n                },{\n                    \"tag\": \"Displaced Ukrainians\",\n                    \"desc\": \"Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries.\"\n                },{\n                    \"tag\": \"Displaced Ukrainians\",\n                    \"desc\": \"Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries.\"\n                },{\n                    \"tag\": \"Displaced Ukrainians\",\n                    \"desc\": \"Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries.\"\n                }\n            ]\n        },\n        {\n            \"language\":\"ua\",\n            \"title\" :\"\",\n            \"slogan\": \"\",\n            \"description\": \"\",\n            \"goals\": [\n                {\n                    \"tag\": \"Global Networking\",\n                    \"desc\": \"Establish a robust network of employers, businesses, and organizations open to hiring and supporting Ukrainian talent.\"\n                },{\n                    \"tag\": \"Tailored Employment Matchmaking\",\n                    \"desc\": \"Facilitate personalized connections between skilled Ukrainians and companies seeking their specific skills, qualifications, and expertise.\"\n                },{\n                    \"tag\": \"Skills Development\",\n                    \"desc\": \"Offer training, mentorship, and resources to empower Ukrainians in enhancing their professional abilities and adapting to new work environments.\"\n                },{\n                    \"tag\": \"Empowerment through Knowledge\",\n                    \"desc\": \"Provide guidance on navigating foreign job markets, including resume writing, interview skills, and cultural integration.\"\n                },{\n                    \"tag\": \"Cultural Integration\",\n                    \"desc\": \"Foster a supportive community that assists Ukrainians in adapting to new cultures, workplace norms, and societal contexts.\"\n                },{\n                    \"tag\": \"Sustainable Empowerment\",\n                    \"desc\": \"Cultivate long-term partnerships that not only secure immediate employment but also pave the way for ongoing professional growth.\"\n                }\n            ],\n            \"criteria\": [\n                {\n                    \"tag\": \"\",\n                    \"desc\":\"\"\n                }\n            ]\n        }\n    ],\n    \"imgCover\": \"project-1.jpg\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/projects/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"projects",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/projects/",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/projects/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"projects",
 								""
 							]
 						}
