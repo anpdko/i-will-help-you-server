@@ -2,6 +2,19 @@ const express = require('express');
 const router = express.Router();
 const Projects = require('../models/projects.module');
 const { verifyToken } = require('../middleware/admin.middleware');
+const data = require("../data/projects.json")
+
+// router.get('/add', (req, res) => {
+//   try {
+//     data.map(async (elem) => {
+//       await Projects.create(elem)
+//     })
+//     res.json("OK")
+//   }
+//   catch(err) {
+//     console.log(err);
+//   }
+// });
 
 // GET api/projects - Get all projects
 router.get('/', (req, res) => {

@@ -1,0 +1,924 @@
+[
+  {
+    "translations": [
+      {
+        "language": "en",
+        "title": "OpportunityConnect",
+        "slogan": "Building new bridges and fostering connections",
+        "description": "OpportunityConnect Ukraine is a groundbreaking endeavor designed to bridge the divide between Ukrainians living abroad and the potential employment opportunities that await them. As a testament to our enduring commitment to the Ukrainian diaspora, this project is dedicated to fostering connections, creating pathways to meaningful work, and empowering displaced Ukrainians to harness their skills and aspirations in their new homes.\n\nIn the wake of conflict and displacement, many talented Ukrainians have found themselves in foreign lands, seeking refuge and a chance to rebuild their lives. OpportunityConnect Ukraine emerges as a beacon of hope, actively identifying and forging partnerships with companies willing to welcome Ukrainian talent. Our goal is not only to secure jobs but to empower individuals with the tools to flourish professionally, contributing positively to their host communities and embracing new horizons.",
+        "goals": [
+          {
+            "tag": "Global Networking",
+            "desc": "Establish a robust network of employers, businesses, and organizations open to hiring and supporting Ukrainian talent."
+          },
+          {
+            "tag": "Tailored Employment Matchmaking",
+            "desc": "Facilitate personalized connections between skilled Ukrainians and companies seeking their specific skills, qualifications, and expertise."
+          },
+          {
+            "tag": "Skills Development",
+            "desc": "Offer training, mentorship, and resources to empower Ukrainians in enhancing their professional abilities and adapting to new work environments."
+          },
+          {
+            "tag": "Empowerment through Knowledge",
+            "desc": "Provide guidance on navigating foreign job markets, including resume writing, interview skills, and cultural integration."
+          },
+          {
+            "tag": "Cultural Integration",
+            "desc": "Foster a supportive community that assists Ukrainians in adapting to new cultures, workplace norms, and societal contexts."
+          },
+          {
+            "tag": "Sustainable Empowerment",
+            "desc": "Cultivate long-term partnerships that not only secure immediate employment but also pave the way for ongoing professional growth."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Displaced Ukrainians",
+            "desc": "Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries."
+          },
+          {
+            "tag": "Skill and Expertise",
+            "desc": "Applicants should possess valuable skills, qualifications, and expertise that align with the needs of potential employers in the target locations."
+          },
+          {
+            "tag": "Employment Readiness",
+            "desc": "Preference will be given to candidates who have demonstrated readiness and motivation to seek meaningful employment, including a willingness to adapt to new work environments and cultural contexts."
+          },
+          {
+            "tag": "Professional Development Potential",
+            "desc": "OpportunityConnect Ukraine seeks individuals who show potential for professional growth and development, with an eagerness to enhance their skills and embrace new opportunities."
+          },
+          {
+            "tag": "Cultural Integration",
+            "desc": "Applicants who demonstrate a commitment to cultural integration and openness to adapt to workplace norms and societal contexts in foreign countries will be considered."
+          },
+          {
+            "tag": "Language Proficiency",
+            "desc": "Proficiency in relevant languages used in the target employment locations will be an advantage for applicants seeking opportunities in specific regions."
+          },
+          {
+            "tag": "Collaborative Spirit",
+            "desc": "Candidates who exhibit a collaborative spirit and a willingness to work with employers and mentors to achieve mutual success will be encouraged to apply."
+          },
+          {
+            "tag": "Long-Term Commitment",
+            "desc": "OpportunityConnect Ukraine aims to facilitate long-term employment opportunities. Applicants who show a commitment to building a stable and fulfilling career in their host countries will be preferred."
+          },
+          {
+            "tag": "Diversity and Inclusivity",
+            "desc": "Efforts will be made to ensure diversity and inclusivity among selected candidates, representing various professions, backgrounds, and regions."
+          },
+          {
+            "tag": "Core Values Alignment",
+            "desc": "The selection process will consider how well applicants align with the core values of OpportunityConnect Ukraine, including empowerment, inclusivity, opportunity creation, collaboration, and resilience."
+          }
+        ]
+      },
+      {
+        "language": "ua",
+        "title": "OpportunityConnect",
+        "slogan": "Будівництво нових мостів та сприяння зв'язкам",
+        "description": "OpportunityConnect Ukraine - це революційна ініціатива, спрямована на зменшення розриву між українцями, що проживають за кордоном, та можливостями зайнятості, які їх чекають. Цей проект є виразом нашої нескоренної прив'язаності до української діаспори і спрямований на сприяння зв'язкам, створення шляхів до значущої роботи та надання можливості переміщеним українцям використовувати свої навички та амбіції у новому оточенні. \n\nПісля конфлікту та переміщень багато талановитих українців опинилися в чужих країнах, шукаючи притулку та можливості відновити свої життя. OpportunityConnect Ukraine виступає як світловий маяк надії, активно визначаючи та встановлюючи партнерства з компаніями, які готові вітати український талант. Нашою метою є не лише забезпечення робочих місць, але й надання особам інструментів для професійного росту, позитивного внеску в гостинні спільноти та відкриття нових горизонтів.",
+        "goals": [
+          {
+            "tag": "Глобальна мережа спілкування",
+            "desc": "Створити міцну мережу роботодавців, компаній та організацій, відкритих для найму та підтримки українського таланту."
+          },
+          {
+            "tag": "Індивідуальний підбір робочих місць",
+            "desc": "Сприяти індивідуальним зв'язкам між кваліфікованими українцями та компаніями, що шукають їх конкретні навички, кваліфікації та експертизу."
+          },
+          {
+            "tag": "Розвиток навичок",
+            "desc": "Надавати навчання, менторство та ресурси для надання українцям засобів розвитку їх професійних навичок та адаптації до нових робочих середовищ."
+          },
+          {
+            "tag": "Зміцнення через знання",
+            "desc": "Надавати поради щодо орієнтування на іноземних ринках праці, включаючи написання резюме, навички співбесіди та культурну інтеграцію."
+          },
+          {
+            "tag": "Культурна інтеграція",
+            "desc": "Сприяти створенню підтримуючої спільноти, яка допомагає українцям адаптуватися до нових культур, норм робочого оточення та суспільних контекстів."
+          },
+          {
+            "tag": "Стійке зміцнення",
+            "desc": "Вирощувати довгострокові партнерства, які не тільки забезпечують негайне працевлаштування, але й відкривають шлях до постійного професійного росту."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Зміщені українці",
+            "desc": "Пріоритет буде надано особам, які безпосередньо постраждали від конфлікту та переміщень і шукають можливості працевлаштування в інших країнах."
+          },
+          {
+            "tag": "Навички та експертиза",
+            "desc": "Претенденти повинні мати цінні навички, кваліфікації та експертизу, які відповідають потребам потенційних роботодавців у цільових локаціях."
+          },
+          {
+            "tag": "Готовність до працевлаштування",
+            "desc": "Перевагу отримають кандидати, які продемонстрували готовність та мотивацію шукати значущу роботу, включаючи готовність адаптуватися до нових робочих середовищ та культурних контекстів."
+          },
+          {
+            "tag": "Потенціал професійного розвитку",
+            "desc": "OpportunityConnect Ukraine шукає особи, які проявляють потенціал для професійного зростання та розвитку, з бажанням покращити свої навички та обійняти нові можливості."
+          },
+          {
+            "tag": "Культурна інтеграція",
+            "desc": "Претенденти, які демонструють зобов'язання до культурної інтеграції та готовність адаптуватися до норм робочого середовища та суспільних контекстів в інших країнах, будуть розглядатися."
+          },
+          {
+            "tag": "Мовна компетентність",
+            "desc": "Володіння відповідною мовою, яка використовується у цільових місцях працевлаштування, буде перевагою для претендентів, які шукають можливості в конкретних регіонах."
+          },
+          {
+            "tag": "Дух співпраці",
+            "desc": "Кандидати, які виявляють дух співпраці та готовність працювати з роботодавцями та наставниками для досягнення спільного успіху, будуть спонукані подати заявку."
+          },
+          {
+            "tag": "Довгострокове зобов'язання",
+            "desc": "OpportunityConnect Ukraine має на меті сприяти довгостроковим можливостям зайнятості. Претенденти, які демонструють зобов'язання побудувати стійку та задовільну кар'єру у країні перебування, будуть віддані перевагу."
+          },
+          {
+            "tag": "Різноманітність та інклюзивність",
+            "desc": "Будуть вжиті заходи для забезпечення різноманітності та інклюзивності серед обраних кандидатів, представників різних професій, становищ та регіонів."
+          },
+          {
+            "tag": "Відповідність основним цінностям",
+            "desc": "Процес відбору враховуватиме, наскільки добре претенденти відповідають основним цінностям OpportunityConnect Ukraine, включаючи зміцнення, інклюзивність, створення можливостей, співпрацю та стійкість."
+          }
+        ]
+      }
+    ],
+    "imgCover": "project-1.jpg"
+  },
+  {
+    "translations": [
+      {
+        "language": "en",
+        "title": "HealingHaven ",
+        "slogan": "Guiding light in the path to recovery",
+        "description": "HealingHaven Ukraine is an empathetic sanctuary born from a deep understanding of the traumatic toll inflicted by the Russian-Ukrainian war. As a refuge of healing and restoration, this project stands as a testament to our commitment to the millions of Ukrainians who seek solace and support in the aftermath of the conflict. We recognize that the scars of war extend beyond the physical, and the emotional wounds carried by those who have experienced the horrors of war are deeply profound.\n\nIn the years 2022-2023, more than 8 million Ukrainians fled the ravages of war, leaving behind shattered lives, lost loved ones, and haunting memories. Many of these brave souls now carry heavy burdens of grief, anxiety, depression, and trauma. HealingHaven Ukraine emerges as a guiding light, providing a compassionate hand to help them navigate the path toward healing and resilience.",
+        "goals": [
+          {
+            "tag": "Comprehensive Mental Health Support",
+            "desc": "Offer accessible and comprehensive mental health services, including counseling, therapy, and psychological support, tailored to the unique needs of those affected by war trauma."
+          },
+          {
+            "tag": "Trauma-Informed Care",
+            "desc": "Implement trauma-informed practices to create a safe and empathetic environment for individuals to process their experiences and embark on a journey of healing."
+          },
+          {
+            "tag": "Grief and Bereavement Support",
+            "desc": "Provide specialized support to those who have lost loved ones, assisting them in navigating the grieving process and finding ways to cope with their loss."
+          },
+          {
+            "tag": "Resilience and Coping Strategies",
+            "desc": "Offer workshops and programs to equip individuals with coping mechanisms and resilience-building techniques to face the challenges of their post-war lives."
+          },
+          {
+            "tag": "Community Healing",
+            "desc": "Foster a nurturing community that encourages open dialogue, sharing, and peer support among those who have endured similar traumatic experiences."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "War-Affected Individuals",
+            "desc": "Priority is given to individuals who have experienced direct or indirect exposure to the Russian-Ukrainian war, such as civilians who witnessed conflict, displacement, loss of loved ones, or other traumatic events."
+          },
+          {
+            "tag": "Ukrainian Nationals",
+            "desc": "The project primarily aims to assist Ukrainian nationals who have been impacted by the war. Individuals who are seeking support for their war-related trauma and are residing within Ukraine or in countries where Ukrainian refugees sought asylum are eligible."
+          },
+          {
+            "tag": "Psychological Assessment",
+            "desc": "Applicants undergo a thorough psychological assessment conducted by qualified professionals. The assessment helps identify the severity of trauma, emotional distress, and the specific mental health needs of the individuals."
+          },
+          {
+            "tag": "Vulnerable Populations",
+            "desc": "Special consideration is given to vulnerable populations, including children, adolescents, elderly individuals, and those with disabilities, who may be more susceptible to the emotional impact of war-related trauma."
+          },
+          {
+            "tag": "Demonstrated Need",
+            "desc": "Applicants must demonstrate a genuine need for psychological support and counseling due to their experiences during the war and its aftermath."
+          },
+          {
+            "tag": "Willingness to Engage in Therapy",
+            "desc": "Prospective beneficiaries should show a willingness and commitment to actively participate in the therapeutic process, demonstrating openness to healing and personal growth."
+          },
+          {
+            "tag": "Referrals and Recommendations",
+            "desc": "Referrals from community organizations, support groups, or mental health professionals who have identified individuals in need of support are considered during the selection process."
+          },
+          {
+            "tag": "Capacity for Virtual Therapy",
+            "desc": "Given the challenges of reaching individuals in different locations, a capacity for virtual therapy participation (via online platforms) is considered, especially for those who may be in remote or inaccessible areas."
+          },
+          {
+            "tag": "Privacy and Confidentiality",
+            "desc": "HealingHaven Ukraine ensures the utmost privacy and confidentiality for applicants during the selection process        and throughout their engagement with the project."
+          },
+          {
+            "tag": "Equitable Access",
+            "desc": "The project strives to ensure equitable access to mental health support, avoiding any form of discrimination based on race, ethnicity, religion, gender, or other protected characteristics."
+          }
+        ]
+      },
+      {
+        "language": "ua",
+        "title": "HealingHaven",
+        "slogan": "Путівник у світло шляху до одужання",
+        "description": "HealingHaven Ukraine - це співчутливий прихисток, заснований на глибокому розумінні травматичних наслідків російсько-української війни. Як пристань одужання та відновлення, цей проект є виразом нашого зобов'язання перед мільйонами українців, які шукають заспокоєння та підтримку внаслідок конфлікту. Ми розуміємо, що шрами війни виходять далеко за межі фізичних, а емоційні рани, які несуть ті, хто пережив настрашність війни, є дуже глибокими.\n\nУ 2022-2023 роках понад 8 мільйонів українців втекли від наслідків війни, залишивши позаду розірвані життя, втрачених близьких та мучущі спогади. Багато з цих хоробрих душ нині несуть важкі тягарі горя, тривожності, депресії та травми. HealingHaven Ukraine виступає як путівник у світло, надаючи співчутливу руку, щоб допомогти їм пройти шлях одужання та стійкості.",
+        "goals": [
+          {
+            "tag": "Загальна підтримка психічного здоров'я",
+            "desc": "Надавати доступні та комплексні послуги психічного здоров'я, включаючи консультування, терапію та психологічну підтримку, які враховують унікальні потреби тих, хто постраждав від військової травми."
+          },
+          {
+            "tag": "Підхід, орієнтований на травму",
+            "desc": "Впроваджувати практики, орієнтовані на травму, щоб створити безпечне та співчутливе середовище для осіб, які хочуть обробити свої досвіди та розпочати шлях одужання."
+          },
+          {
+            "tag": "Підтримка у горі та поневоленні",
+            "desc": "Надавати спеціалізовану підтримку тим, хто втратив близьких, допомагаючи їм орієнтуватися в процесі горіння та знаходити способи справлятися з втратою."
+          },
+          {
+            "tag": "Стійкість та стратегії подолання",
+            "desc": "Надавати майстер-класи та програми, які забезпечують особам механізми подолання та техніки розвитку стійкості для подолання викликів життя після війни."
+          },
+          {
+            "tag": "Оздоровлення спільноти",
+            "desc": "Сприяти доглядальній спільноті, яка заохочує відкритий діалог, обмін та взаємну підтримку серед тих, хто пережив схожі травматичні досвіди."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Особи, постраждалі від війни",
+            "desc": "Пріоритет надається особам, які безпосередньо або опосередковано зазнали впливу російсько-української війни, таким як цивільні, які бачили конфлікт, переміщення, втрату близьких або інші травматичні події."
+          },
+          {
+            "tag": "Громадяни України",
+            "desc": "Проект переважно націлений на допомогу громадянам України, які постраждали внаслідок війни. Особи, які шукають підтримку для своєї воєнної травми та проживають в Україні або в країнах, де українські біженці шукали притулку, мають право на участь."
+          },
+          {
+            "tag": "Психологічна оцінка",
+            "desc": "Заявники проходять ретельну психологічну оцінку, проведену кваліфікованими спеціалістами. Оцінка допомагає визначити важкість травми, емоційний дистрес та конкретні потреби у психічному здоров'ї осіб."
+          },
+          {
+            "tag": "Вразливі популяції",
+            "desc": "Особлива увага приділяється вразливим групам, включаючи дітей, підлітків, літніх осіб та осіб із інвалідністю, які можуть бути більш схильними до емоційного впливу військової травми."
+          },
+          {
+            "tag": "Продемонстрована потреба",
+            "desc": "Заявники повинні продемонструвати справжню потребу у психологічній підтримці та консультуванні через їх досвіди під час війни та після її завершення."
+          },
+          {
+            "tag": "Готовність займатися терапією",
+            "desc": "Майбутні користувачі повинні проявляти готовність та зобов'язаність активно брати участь у терапевтичному процесі, демонструючи готовність до одужання та особистісного зростання."
+          },
+          {
+            "tag": "Рекомендації та поради",
+            "desc": "Рекомендації від громадських організацій, груп підтримки або фахівців з психічного здоров'я, які визначили осіб, яким потрібна підтримка, враховуються під час процесу відбору."
+          },
+          {
+            "tag": "Можливість віртуальної терапії",
+            "desc": "Оскільки складно досягти осіб у різних місцях, розглядається можливість участі в віртуальній терапії (через онлайн-платформи), особливо для тих, хто може знаходитися у віддалених або недоступних районах."
+          },
+          {
+            "tag": "Приватність та конфіденційність",
+            "desc": "HealingHaven Ukraine забезпечує максимальну приватність та конфіденційність для заявників під час процесу відбору та на протязі їхньої участі в проекті."
+          },
+          {
+            "tag": "Рівний доступ",
+            "desc": "Проект прагне забезпечити рівний доступ до підтримки психічного здоров'я, уникати будь-якої форми дискримінації на підставі раси, етнічності, релігії, статі чи інших захищених характеристик."
+          }
+        ]
+      }
+    ],
+    "imgCover": "project-2.jpg"
+  },
+  {
+    "translations": [
+      {
+        "language": "en",
+        "title": "EduHorizon",
+        "slogan": "Lifeline that extends beyond borders",
+        "description": "EduHorizon Ukraine emerges as a radiant beacon of hope in the lives of young Ukrainian scholars whose dreams have been cast adrift by the tides of war. In a world where education   is the key to unlocking a brighter future, this initiative is a lifeline that extends beyond borders, ensuring that aspiring minds are not hindered by circumstances beyond their control.\n\nIn the wake of the Russian-Ukrainian war, countless scholars found themselves uprooted, seeking refuge and a chance to continue their academic pursuits. EduHorizon Ukraine is a resounding affirmation of their potential, a project committed to providing access to education that might otherwise remain elusive. By collaborating with universities and colleges both locally and globally, we strive to pave the way for deserving Ukrainian students to embrace higher education free of financial burdens.",
+        "goals": [
+          {
+            "tag": "Scholarship Advocacy",
+            "desc": "Forge partnerships with educational institutions to secure scholarships and tuition waivers for displaced Ukrainian students."
+          },
+          {
+            "tag": "Financial Support",
+            "desc": "Provide financial assistance, whether partial or full, to students who have demonstrated exceptional promise and dedication to their studies."
+          },
+          {
+            "tag": "Mentorship and Guidance",
+            "desc": "Offer mentorship programs that empower students to navigate new academic environments, make informed decisions, and excel in their chosen fields."
+          },
+          {
+            "tag": "Community Integration",
+            "desc": "Create a supportive community that nurtures a sense of belonging and unity among Ukrainian scholars studying abroad."
+          },
+          {
+            "tag": "Cultural Enrichment",
+            "desc": "Facilitate cultural exchange initiatives that celebrate the diverse heritage of Ukrainian students while fostering cross-cultural understanding."
+          },
+          {
+            "tag": "Long-Term Impact",
+            "desc": "Cultivate relationships with universities and colleges to create sustainable pathways for ongoing educational opportunities for displaced scholars."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Displaced Ukrainian Scholars",
+            "desc": "Priority will be given to students who have been directly affected by the conflict and are seeking higher education opportunities abroad due to displacement from their home regions."
+          },
+          {
+            "tag": "Academic Promise",
+            "desc": "Applicants should demonstrate exceptional promise and dedication to their studies, as evidenced by academic achievements, extracurricular activities, and letters of recommendation."
+          },
+          {
+            "tag": "Financial Need",
+            "desc": "Preference will be given to students who face financial challenges in pursuing higher education and may not have access to adequate financial resources."
+          },
+          {
+            "tag": "Commitment to Education",
+            "desc": "Applicants should exhibit a strong commitment to their educational aspirations, showing a clear vision of how their studies will contribute to their personal growth and the betterment of their community and society."
+          },
+          {
+            "tag": "Mentorship Potential",
+            "desc": "Students who show potential to benefit from mentorship        and guidance in navigating new academic environments          and making informed decisions will be considered."
+          },
+          {
+            "tag": "Cultural Exchange",
+            "desc": "Applicants who express an interest in participating in cultural exchange initiatives and celebrating Ukrainian heritage while fostering cross-cultural understanding will be encouraged to apply."
+          },
+          {
+            "tag": "Community Engagement",
+            "desc": "EduHorizon Ukraine seeks students who value community engagement and are willing to actively contribute to creating a supportive community of Ukrainian scholars studying abroad."
+          },
+          {
+            "tag": "Alignment with Core Values",
+            "desc": "Applicants should demonstrate alignment with the core values  of EduHorizon Ukraine, including the belief in education as empowerment and resilience in overcoming challenges."
+          },
+          {
+            "tag": "Long-Term Impact",
+            "desc": "The initiative aims to support students in their long-term educational journey. Preference will be given to applicants who have the potential to create a positive and lasting impact on their academic and professional paths."
+          },
+          {
+            "tag": "Diversity and Representation",
+            "desc": "Efforts will be made to ensure diversity and representation among selected scholars, taking into account various academic disciplines, backgrounds, and regions."
+          }
+        ]
+      },
+      {
+        "language": "ua",
+        "title": "EduHorizon",
+        "slogan": "Лінія життя, що виходить за межі кордонів",
+        "description": "EduHorizon Ukraine з'являється як яскравий знак надії в життях молодих українських науковців, чиї мрії були відкинуті хвилями війни. У світі, де освіта є ключем до розблокування яскравого майбутнього, ця ініціатива є лінією життя, що виходить за межі кордонів, забезпечуючи, що молоді розуми не обмежуються обставинами, поза їхньою контролем.\n\nПісля російсько-української війни безліч вчених опинилися вигнанцями, шукаючи притулку і можливість продовжити свої навчальні зусилля. EduHorizon Ukraine - це гучне підтвердження їхнього потенціалу, проект, який зобов'язаний надати доступ до освіти, яка інакше може залишатися недосяжною. Співпрацюючи з університетами та коледжами як на локальному, так і на глобальному рівні, ми прагнемо прокласти шлях для гідних українських студентів, щоб вони могли здобувати вищу освіту без фінансових тягарів.",
+        "goals": [
+          {
+            "tag": "Адвокація стипендій",
+            "desc": "Укладання партнерських угод з освітніми закладами для забезпечення стипендій та звільнень від плати за навчання для вигнаних українських студентів."
+          },
+          {
+            "tag": "Фінансова підтримка",
+            "desc": "Надання фінансової допомоги, часткової або повної, студентам, які проявили винятковий потенціал і відданість своїм навчанням."
+          },
+          {
+            "tag": "Менторство та настанови",
+            "desc": "Надання програм менторства, що дозволяють студентам орієнтуватися у нових академічних середовищах, приймати обдумані рішення та відзначатися в обраних галузях."
+          },
+          {
+            "tag": "Інтеграція в спільноту",
+            "desc": "Створення підтримувальної спільноти, яка сприяє почуттю належності та єдності серед українських науковців, які навчаються за кордоном."
+          },
+          {
+            "tag": "Культурне збагачення",
+            "desc": "Здійснення ініціатив культурного обміну, які вшановують різноманітне спадщину українських студентів, сприяючи взаєморозумінню між культурами."
+          },
+          {
+            "tag": "Довготривалий вплив",
+            "desc": "Розвиток відносин з університетами та коледжами для створення стійких шляхів для постійних освітніх можливостей для вигнаних учених."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Вигнані українські науковці",
+            "desc": "Пріоритет буде надано студентам, які безпосередньо постраждали внаслідок конфлікту і шукають можливості вищої освіти за кордоном через переміщення зі своїх рідних регіонів."
+          },
+          {
+            "tag": "Академічні обіцянки",
+            "desc": "Заявники повинні демонструвати виняткові обіцянки та відданість своїм навчанням, що підтверджується академічними досягненнями, позашкільними заняттями та рекомендаціями."
+          },
+          {
+            "tag": "Фінансова потреба",
+            "desc": "Пріоритет буде надано студентам, які стикаються з фінансовими викликами у здобутті вищої освіти та можуть не мати доступу до достатніх фінансових ресурсів."
+          },
+          {
+            "tag": "Зобов'язаність до освіти",
+            "desc": "Заявники повинні проявляти велику зобов'язаність перед своїми освітніми амбіціями, демонструючи чітке бачення того, як їхнє навчання сприятиме їхньому особистому зростанню та поліпшенню їхньої громади та суспільства."
+          },
+          {
+            "tag": "Потенціал менторства",
+            "desc": "Студенти, які показують потенціал вигідного впливу менторства та настанови при навігації в нових академічних середовищах та прийнятті обґрунтованих рішень, будуть враховані."
+          },
+          {
+            "tag": "Культурний обмін",
+            "desc": "Заявники, які висловлюють бажання брати участь в ініціативах культурного обміну та вшановувати українське спадщину, сприяючи взаєморозумінню між культурами, будуть підтримані для подачі заяв."
+          },
+          {
+            "tag": "Залучення до спільноти",
+            "desc": "EduHorizon Ukraine шукає студентів, які цінують залучення до спільноти і готові активно сприяти створенню підтримувальної спільноти українських науковців, які навчаються за кордоном."
+          },
+          {
+            "tag": "Відповідність основним цінностям",
+            "desc": "Заявники повинні демонструвати відповідність основним цінностям EduHorizon Ukraine, включаючи віру в освіту як засіб емповерменту та стійкість у подоланні викликів."
+          },
+          {
+            "tag": "Довгостроковий вплив",
+            "desc": "Ініціатива має на меті підтримувати студентів у їхньому довготривалому освітньому шляху. Пріоритет буде надано заявникам, які мають потенціал створити позитивний і тривалий вплив на свій академічний та професійний розвиток."
+          },
+          {
+            "tag": "Різноманітність та представництво",
+            "desc": "Будуть вжиті заходи для забезпечення різноманітності та представництва серед обраних науковців, враховуючи різні академічні дисципліни, походження та регіони."
+          }
+        ]
+      }
+    ],
+    "imgCover": "project-3.jpg"
+  },
+  {
+    "translations": [
+      {
+        "language": "en",
+        "title": "EduConnect",
+        "slogan": "Nurturing a generation of empowered young Ukrainians",
+        "description": "EduConnect Ukraine is a transformative educational initiative born from the conviction that every young Ukrainian deserves a bright and promising future, regardless of the shadows cast by war. Our mission is to bridge the educational gaps faced by children who have endured the turmoil of war, offering them a renewed chance to learn, grow, and flourish. \n\nIn the aftermath of the Russian-Ukrainian war, many young minds were forced to endure disrupted schooling and missed opportunities. EduConnect Ukraine steps in as a beacon          of hope, delivering accessible and engaging online classes to children across Ukraine. We understand that the scars of war extend beyond the physical, impacting a child's intellectual and emotional growth. Our project aspires to be a catalyst for positive change, bringing education to the forefront and nurturing a generation of resilient, empowered, and knowledgeable young Ukrainians.",
+        "goals": [
+          {
+            "tag": "Accessible Virtual Learning",
+            "desc": "Provide a robust online platform offering a diverse array of classes and subjects, ensuring that every child, regardless           of their location, can access quality education."
+          },
+          {
+            "tag": "Qualified Educators",
+            "desc": "Collaborate with a network of skilled teachers, both local and global, to deliver interactive and engaging lessons tailored to    the unique needs of young Ukrainians."
+          },
+          {
+            "tag": "Empowerment through Knowledge",
+            "desc": "Empower students with the tools and knowledge needed to not only catch up on missed studies but also to thrive academically and emotionally."
+          },
+          {
+            "tag": "Holistic Development",
+            "desc": "Foster well-rounded growth by including extracurricular activities, life skills, and mentorship opportunities to inspire        a sense of purpose and direction."
+          },
+          {
+            "tag": "Cultivating Resilience",
+            "desc": "Create a nurturing virtual community where students can connect, share experiences, and find the support needed           to overcome challenges."
+          },
+          {
+            "tag": "Continuous Adaptation",
+            "desc": "Evolve and enhance our curriculum based on feedback, educational trends, and the evolving needs of our students."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Young Ukrainian Students",
+            "desc": "Priority will be given to children and young individuals in Ukraine who have experienced disruptions in their education due to the Russian-Ukrainian war."
+          },
+          {
+            "tag": "Geographic Accessibility",
+            "desc": "The initiative aims to reach students from diverse regions of Ukraine, ensuring that every child, regardless of their location, can access the virtual learning platform."
+          },
+          {
+            "tag": "Educational Need",
+            "desc": "Applicants should demonstrate a genuine need for educational support, such as missed schooling opportunities, disrupted studies, or limited access to quality education resources."
+          },
+          {
+            "tag": "Commitment to Learning",
+            "desc": "Students who exhibit a strong desire to learn, grow academically, and take advantage of the offered virtual classes and resources will be given preference."
+          },
+          {
+            "tag": "Empowerment and Resilience",
+            "desc": "EduConnect Ukraine seeks to empower and nurture resilient young Ukrainians. Applicants who have demonstrated resilience in the face of adversity and are eager to embrace education as a path to a brighter future will be encouraged to apply."
+          },
+          {
+            "tag": "Diversity and Inclusivity",
+            "desc": "The initiative values inclusivity and diversity. Efforts will be made to ensure a diverse group of students representing various backgrounds, experiences, and aspirations are included."
+          },
+          {
+            "tag": "Parent/Guardian Engagement",
+            "desc": "Parental or guardian involvement in supporting the child's education and commitment to their growth will be considered during the selection process."
+          },
+          {
+            "tag": "Technology Access",
+            "desc": "Applicants should have access to the necessary technological resources (e.g., internet connection, devices) to participate effectively in virtual learning."
+          },
+          {
+            "tag": "Positive Impact Potential",
+            "desc": "EduConnect Ukraine seeks students whose participation has    the potential to create a positive impact on their educational journey, emotional well-being, and future opportunities."
+          },
+          {
+            "tag": "Continuous Participation",
+            "desc": "Commitment to continuous participation and engagement          in the virtual learning community will be a factor in the     selection process."
+          }
+        ]
+      },
+      {
+        "language": "ua",
+        "title": "EduConnect",
+        "slogan": "Доглядаючи за поколінням зміцнених молодих українців",
+        "description": "EduConnect Ukraine - це перетворююча освітня ініціатива, народжена з переконання, що кожен молодий українець заслуговує на яскраве та обіцяюче майбутнє, незалежно від тіней, які кинула війна. Наша місія - заповнити освітні прогалини, з якими зіштовхнулися діти, які пережили турбулентність війни, надаючи їм відновлену можливість вчитися, рости та процвітати.\n\nВнаслідок російсько-української війни багато юних розумів були змушені зазнати перериваного навчання та втрачених можливостей. EduConnect Ukraine стає знаком надії, надаючи доступні та захоплюючі онлайн-уроки дітям по всій Україні. Ми розуміємо, що шрами війни виходять далеко за межі фізичного впливу, впливаючи на інтелектуальний та емоційний розвиток дитини. Наш проект прагне бути каталізатором позитивних змін, ставлячи освіту на перше місце та доглядаючи за поколінням стійких, здібних та обізнаних молодих українців.",
+        "goals": [
+          {
+            "tag": "Доступне віртуальне навчання",
+            "desc": "Забезпечити міцну онлайн платформу, яка пропонує різноманітні класи та предмети, забезпечуючи можливість якісної освіти кожній дитині, незалежно від її розташування."
+          },
+          {
+            "tag": "Кваліфіковані педагоги",
+            "desc": "Співпрацювати з мережею кваліфікованих вчителів, як місцевих, так і глобальних, для проведення інтерактивних та захоплюючих уроків, адаптованих до унікальних потреб молодих українців."
+          },
+          {
+            "tag": "Зміцнення через знання",
+            "desc": "Дати студентам інструменти та знання, необхідні не тільки для навігації пропущеними заняттями, а й для академічного та емоційного процвітання."
+          },
+          {
+            "tag": "Голістичний розвиток",
+            "desc": "Сприяти всебічному зростанню, включаючи позаурочні заходи, навички життя та можливості менторства для надання почуття цілі та напрямку."
+          },
+          {
+            "tag": "Вирощування стійкості",
+            "desc": "Створити підтримуючу віртуальну спільноту, де студенти зможуть зв'язатися, поділитися досвідом та знайти підтримку, необхідну для подолання викликів."
+          },
+          {
+            "tag": "Постійна адаптація",
+            "desc": "Розвивати та вдосконалювати нашу програму на основі зворотного зв'язку, освітніх тенденцій та змінних потреб наших студентів."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Young Ukrainian Students",
+            "desc": "Priority will be given to children and young individuals in Ukraine who have experienced disruptions in their education due to the Russian-Ukrainian war."
+          },
+          {
+            "tag": "Geographic Accessibility",
+            "desc": "The initiative aims to reach students from diverse regions of Ukraine, ensuring that every child, regardless of their location, can access the virtual learning platform."
+          },
+          {
+            "tag": "Educational Need",
+            "desc": "Applicants should demonstrate a genuine need for educational support, such as missed schooling opportunities, disrupted studies, or limited access to quality education resources."
+          },
+          {
+            "tag": "Commitment to Learning",
+            "desc": "Students who exhibit a strong desire to learn, grow academically, and take advantage of the offered virtual classes and resources will be given preference."
+          },
+          {
+            "tag": "Empowerment and Resilience",
+            "desc": "EduConnect Ukraine seeks to empower and nurture resilient young Ukrainians. Applicants who have demonstrated resilience in the face of adversity and are eager to embrace education as a path to a brighter future will be encouraged to apply."
+          },
+          {
+            "tag": "Diversity and Inclusivity",
+            "desc": "The initiative values inclusivity and diversity. Efforts will be made to ensure a diverse group of students representing various backgrounds, experiences, and aspirations are included."
+          },
+          {
+            "tag": "Parent/Guardian Engagement",
+            "desc": "Parental or guardian involvement in supporting the child's education and commitment to their growth will be considered during the selection process."
+          },
+          {
+            "tag": "Technology Access",
+            "desc": "Applicants should have access to the necessary technological resources (e.g., internet connection, devices) to participate effectively in virtual learning."
+          },
+          {
+            "tag": "Positive Impact Potential",
+            "desc": "EduConnect Ukraine seeks students whose participation has    the potential to create a positive impact on their educational journey, emotional well-being, and future opportunities."
+          },
+          {
+            "tag": "Continuous Participation",
+            "desc": "Commitment to continuous participation and engagement          in the virtual learning community will be a factor in the     selection process."
+          }
+        ]
+      }
+    ],
+    "imgCover": "project-4.jpg"
+  },
+  {
+    "translations": [
+      {
+        "language": "en",
+        "title": "ContentUplift",
+        "slogan": "Advancement of Ukrainian culture, creativity, and innovation",
+        "description": "ContentUplift Ukraine emerges as a driving force behind the preservation and advancement of Ukrainian culture, creativity, and innovation. In an era of digital transformation, this initiative seeks to empower content creators, storytellers, and artists to amplify their voices and share their narratives with the world, transcending borders and enriching global discourse. \n\nAmid the challenges brought about by conflict and displacement, many Ukrainian creators  have been limited in their ability to harness the power of technology for their endeavors. ContentUplift Ukraine is a testament to our commitment to nurturing artistic expression, providing the tools and support needed for individuals to generate impactful content. By procuring computers, offering technical guidance, and facilitating scriptwriting workshops,     we aim to propel the Ukrainian creative spirit to new heights.",
+        "goals": [
+          {
+            "tag": "Technology Empowerment",
+            "desc": "Provide computers and technological resources to Ukrainian content creators, enabling them to bring their creative visions   to life."
+          },
+          {
+            "tag": "Scriptwriting Support",
+            "desc": "Facilitate scriptwriting workshops and mentorship programs, guiding aspiring writers in crafting compelling narratives that resonate with audiences."
+          },
+          {
+            "tag": "Content Amplification",
+            "desc": "Showcase and promote Ukrainian content across digital platforms, extending its reach and fostering cross-cultural exchange."
+          },
+          {
+            "tag": "Collaborative Partnerships",
+            "desc": "Forge collaborations between Ukrainian creators, artists, and international experts, enriching the creative landscape through diverse perspectives."
+          },
+          {
+            "tag": "Cultural Preservation",
+            "desc": "Empower storytellers to weave narratives that preserve and celebrate the rich cultural heritage of Ukraine, fostering a sense of pride and identity."
+          },
+          {
+            "tag": "Global Visibility",
+            "desc": "Elevate Ukrainian content onto the global stage, nurturing a new generation of creators who contribute meaningfully to the global creative dialogue."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Ukrainian Content Creators",
+            "desc": "Priority will be given to individuals who are citizens of Ukraine and actively involved in content creation, storytelling, or artistic endeavors, including writers, filmmakers, digital artists, and other creative professionals."
+          },
+          {
+            "tag": "Commitment to Artistic Expression",
+            "desc": "Applicants should demonstrate a genuine passion for artistic expression and a desire to share their narratives, ideas, or artistic works with a wider audience."
+          },
+          {
+            "tag": "Impact of Technology",
+            "desc": "Consideration will be given to applicants who can articulate how access to technology, such as computers and digital resources, would significantly enhance their creative capabilities and amplify their content."
+          },
+          {
+            "tag": "Potential for Global Engagement",
+            "desc": "The initiative seeks participants whose content has the potential to resonate beyond Ukraine's borders, fostering cross-cultural exchange and contributing to global creative discourse."
+          },
+          {
+            "tag": "Aspiring Scriptwriters",
+            "desc": "Aspiring scriptwriters looking to develop their skills and craft compelling narratives will be encouraged to apply for scriptwriting workshops and mentorship programs."
+          },
+          {
+            "tag": "Cultural Preservation and Celebration",
+            "desc": "Applicants who demonstrate a commitment to preserving and celebrating the rich cultural heritage of Ukraine through their content will be highly considered."
+          },
+          {
+            "tag": "Collaborative Spirit",
+            "desc": "Participants who value collaboration and are open to engaging with international experts and fellow Ukrainian creators to enrich their creative projects will be given preference."
+          },
+          {
+            "tag": "Commitment to Growth",
+            "desc": "Applicants should be motivated to learn and grow in their artistic endeavors, embracing resilience in overcoming challenges and obstacles."
+          },
+          {
+            "tag": "Representation of Diverse Perspectives",
+            "desc": "ContentUplift Ukraine aims to support a diverse range of creative voices that represent various aspects of Ukrainian culture and society."
+          },
+          {
+            "tag": "Potential for Long-term Impact",
+            "desc": "Priority will be given to individuals and projects that have the potential for long-term impact and sustainability in contributing to Ukrainian cultural enrichment and creative dialogue."
+          }
+        ]
+      },
+      {
+        "language": "ua",
+        "title": "ContentUplift",
+        "slogan": "Розвиток української культури, творчості та інновацій",
+        "description": "ContentUplift Ukraine виступає як сила, що сприяє збереженню та розвитку української культури, творчості та інновацій. У ері цифрової трансформації ця ініціатива прагне дати змогу творцям контенту, розповідачам та митцям підсилити свої голоси та поділитися своєю наративною спадщиною зі світом, перетинаючи кордони та збагачуючи глобальний дискурс.\n\nНезважаючи на виклики, що виникли внаслідок конфлікту та переміщення, багатьох українських творців обмежено їхня здатність використовувати потужність технологій для своїх зусиль. ContentUplift Ukraine свідчить про наше прагнення доглядати за художнім виразом, надаючи інструменти та підтримку, необхідні для створення впливового контенту. Шляхом забезпечення комп'ютерів, надання технічної підтримки та проведення майстер-класів з написання сценаріїв ми спрямовуємо український творчий дух до нових вершин.",
+        "goals": [
+          {
+            "tag": "Зміцнення технологій",
+            "desc": "Забезпечити українських творців контенту комп'ютерами та технологічними ресурсами, щоб допомогти їм втілювати свої творчі візії у життя."
+          },
+          {
+            "tag": "Підтримка у написанні сценаріїв",
+            "desc": "Проводити майстер-класи з написання сценаріїв та програми менторства, керуючи аспірантами-письменниками у створенні захопливих наративів, які взаємодіють з аудиторією."
+          },
+          {
+            "tag": "Підвищення важливості контенту",
+            "desc": "Демонструвати та просувати український контент на цифрових платформах, розширюючи його популярність та сприяючи міжкультурній взаємодії."
+          },
+          {
+            "tag": "Спільні партнерства",
+            "desc": "Заводити співпрацю між українськими творцями, митцями та міжнародними експертами, збагачуючи творчий ландшафт різноманітними поглядами."
+          },
+          {
+            "tag": "Збереження культури",
+            "desc": "Дати можливість розповідачам створювати наративи, що зберігають та відзначають багатий культурний спадок України, сприяючи відчуттю гордості та ідентичності."
+          },
+          {
+            "tag": "Глобальна видимість",
+            "desc": "Підняти український контент на світову арену, доглядаючи за новим поколінням творців, які значущим чином сприяють глобальному творчому діалогу."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Творці контенту з України",
+            "desc": "Пріоритет буде надано особам, які є громадянами України та активно займаються створенням контенту, розповіданням історій чи художніми зусиллями, включаючи письменників, кінематографістів, цифрових художників та інших творчих фахівців."
+          },
+          {
+            "tag": "Зобов'язання перед художнім виразом",
+            "desc": "Заявники повинні проявляти справжню пристрасть до художнього виразу та бажання поділитися своїми наративами, ідеями або художніми творами з широкою аудиторією."
+          },
+          {
+            "tag": "Вплив технологій",
+            "desc": "Буде враховано заявників, які можуть аргументувати, як доступ до технологій, таких як комп'ютери та цифрові ресурси, значно покращить їх творчі здібності та підсилить їхній контент."
+          },
+          {
+            "tag": "Потенціал для глобальної взаємодії",
+            "desc": "Ініціатива шукає учасників, контент яких може резонувати за межами України, сприяючи міжкультурній взаємодії та сприяючи глобальному творчому діалогу."
+          },
+          {
+            "tag": "Аспіранти сценаристи",
+            "desc": "Бажаючим розвивати свої навички написання сценаріїв та створювати захоплюючі наративи буде рекомендовано звернутися до майстер-класів з написання сценаріїв та програм менторства."
+          },
+          {
+            "tag": "Збереження та святкування культури",
+            "desc": "Заявники, які демонструють зобов'язання збереження та святкування багатої культурної спадщини України через свій контент, будуть надзвичайно враховані."
+          },
+          {
+            "tag": "Дух співпраці",
+            "desc": "Учасники, які цінують співпрацю та готові співпрацювати з міжнародними експертами та співвітчизниками-творцями для збагачення своїх творчих проектів, матимуть перевагу."
+          },
+          {
+            "tag": "Довіра до зростання",
+            "desc": "Заявники повинні бути мотивованими навчатися та рости у своїх творчих зусиллях, проявляючи стійкість у подоланні викликів та перешкод."
+          },
+          {
+            "tag": "Представлення різноманітних поглядів",
+            "desc": "ContentUplift Ukraine має на меті підтримувати різноманітні голоси творчості, що представляють різні аспекти української культури та суспільства."
+          },
+          {
+            "tag": "Потенціал для довготривалого впливу",
+            "desc": "Пріоритет буде надано особам та проектам, які мають потенціал для довготривалого впливу та сталості у підвищенні культурного збагачення України та творчого діалогу."
+          },
+          {
+            "tag": "Зобов'язання до зростання",
+            "desc": "Заявники повинні бути мотивованими навчатися та зростати у своїх творчих зусиллях, приймаючи стійкість у подоланні викликів і перешкод."
+          },
+          {
+            "tag": "Представлення різноманітних поглядів",
+            "desc": "ContentUplift Ukraine має на меті підтримувати різноманітні голоси творчості, що представляють різні аспекти української культури та суспільства."
+          },
+          {
+            "tag": "Потенціал для довготривалого впливу",
+            "desc": "Пріоритет буде надано особам та проектам, які мають потенціал для довготривалого впливу та сталості у підвищенні культурного збагачення України та творчого діалогу."
+          }
+        ]
+      }
+    ],
+    "imgCover": "project-5.jpg"
+  },
+  {
+    "translations": [
+      {
+        "language": "en",
+        "title": "Collaborative Spirit",
+        "slogan": "We bring together donors, volunteers, and beneficiaries",
+        "description": "CompassionCare Ukraine is a heartfelt initiative that unites compassionate hearts to provide essential sustenance and support to those among us who are facing economic challenges. In a world often divided by boundaries, our project seeks to create a bridge of solidarity, connecting those who have with those who need it, to ensure no one in Ukraine walks the path of hardship alone. \n\nWith a spirit of generosity, we bring together donors, volunteers, and beneficiaries to weave a tapestry of care. CompassionCare Ukraine is more than just a project; it's a shared commitment to alleviating hunger, providing warm clothing, and offering vital resources for daily living. Our goal is to empower Ukrainians in need, granting them a renewed sense of dignity and the assurance that they are not alone on their journey. ",
+        "goals": [
+          {
+            "tag": "Resource Redistribution",
+            "desc": "Create a platform for collecting donations, whether in the form of food, clothing, or other essentials and thoughtfully distribute them to those who require assistance."
+          },
+          {
+            "tag": "Community Connection",
+            "desc": "Build a network of compassion by fostering connections between donors and recipients, nurturing a sense of community and shared responsibility."
+          },
+          {
+            "tag": "Dignified Support",
+            "desc": "Provide aid in a manner that preserves the dignity of beneficiaries, ensuring they receive essential items without compromising their self-respect."
+          },
+          {
+            "tag": "Holistic Well-being",
+            "desc": "Extend beyond material support, offering guidance, counseling, and resources that contribute to overall well-being and empowerment."
+          },
+          {
+            "tag": "Sustainability",
+            "desc": "Collaborate with local businesses, individuals, and organizations to create a sustainable cycle of giving, where resources continue to flow to those in need."
+          },
+          {
+            "tag": "Transparent Accountability",
+            "desc": "Uphold the highest standards of transparency and accountability, ensuring that every donation reaches its intended recipient."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Economic Need",
+            "desc": "Priority will be given to individuals and families who are experiencing economic hardship, and struggling to meet        their basic needs, including food, clothing, and daily essentials."
+          },
+          {
+            "tag": "Vulnerable Groups",
+            "desc": "Special consideration will be given to vulnerable populations, such as children, elderly individuals, persons with disabilities, and single-parent households, who may be more susceptible     to economic challenges."
+          },
+          {
+            "tag": "Demonstrated Need",
+            "desc": "Applicants must provide clear and verifiable information about their current financial situation, including evidence of economic hardship, to determine their eligibility for assistance."
+          },
+          {
+            "tag": "Dignity and Respect",
+            "desc": "CompassionCare Ukraine places a high value on preserving      the dignity and self-respect of beneficiaries. Applicants will        be treated with empathy and understanding throughout           the application and assistance process."
+          },
+          {
+            "tag": "Geographic Consideration",
+            "desc": "The project aims to reach individuals in various regions of Ukraine, ensuring that assistance is not limited to specific      areas but is accessible to those in need across the country."
+          },
+          {
+            "tag": "Collaboration and Community Connection",
+            "desc": "Beneficiaries who actively engage with the CompassionCare Ukraine community, fostering connections and a sense of     shared responsibility, may be given preference during the selection process."
+          },
+          {
+            "tag": "Holistic Well-being",
+            "desc": "While material support is essential, consideration will also be given to beneficiaries who may benefit from additional resources, guidance, counseling, or empowerment         programs that contribute to their overall well-being."
+          },
+          {
+            "tag": "Sustainability",
+            "desc": "Efforts will be made to support beneficiaries in a way that promotes self-sufficiency and sustainability, encouraging collaboration with local businesses, organizations, and  resources to create lasting impact."
+          },
+          {
+            "tag": "Equitable Resource Redistribution",
+            "desc": "The project will strive to distribute available resources fairly, ensuring that those who require assistance the most receive   the support they need."
+          },
+          {
+            "tag": "Transparency and Accountability",
+            "desc": "CompassionCare Ukraine is committed to upholding transparency and accountability in all its operations. Beneficiaries will be informed of the assistance                 provided and its source."
+          }
+        ]
+      },
+      {
+        "language": "uk",
+        "title": "Дух співпраці",
+        "slogan": "Ми об'єднуємо донорів, волонтерів та отримувачів допомоги",
+        "description": "CompassionCare Ukraine - це щира ініціатива, яка об'єднує серця співчуття, щоб забезпечити основне харчування та підтримку тим, хто з нас стикається з економічними труднощами. У світі, який часто поділяється кордонами, наш проект прагне створити міст спідарності, з'єднуючи тих, хто має, з тими, хто цього потребує, щоб переконатися, що ніхто в Україні не йде по шляху тяжкостей самотньо. \n\nЗ духом щедрості ми об'єднуємо донорів, волонтерів та отримувачів допомоги, щоб створити тканину догляду. CompassionCare Ukraine - це більше, ніж просто проект; це спільне зобов'язання полегшити голод, надати тепле одяг та надавати важливі ресурси для повсякденного життя. Нашою метою є надання підтримки українцям, які цього потребують, надаючи їм відновлений почуття гідності та впевненості, що вони не самі на своєму шляху.",
+        "goals": [
+          {
+            "tag": "Перерозподіл Ресурсів",
+            "desc": "Створити платформу для збору пожертв, будь то у формі їжі, одягу або інших необхідних речей, і розумно розподілити їх серед тих, хто потребує допомоги."
+          },
+          {
+            "tag": "З'єднання Громади",
+            "desc": "Побудувати мережу співчуття, створюючи зв'язки між донорами та отримувачами допомоги, сприяючи розвитку відчуття спільноти та спільної відповідальності."
+          },
+          {
+            "tag": "Гідна Підтримка",
+            "desc": "Надавати допомогу таким чином, щоб зберігати гідність отримувачів, забезпечуючи надання їм необхідних речей, не підриваючи їх самоповагу."
+          },
+          {
+            "tag": "Голістичне Благополуччя",
+            "desc": "Виходити за межі матеріальної підтримки, надаючи керівництво, консультування та ресурси, що сприяють загальному благополуччю та зміцненню."
+          },
+          {
+            "tag": "Сталість",
+            "desc": "Співпрацювати з місцевими підприємствами, особами та організаціями для створення стійкого циклу надання, де ресурси продовжують надходити до тих, хто потребує допомоги."
+          },
+          {
+            "tag": "Прозора Відповідальність",
+            "desc": "Дотримуватися найвищих стандартів прозорості та відповідальності, забезпечуючи, що кожна пожертва досягає свого призначеного отримувача."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Географічний Розгляд",
+            "desc": "Проект має на меті досягти осіб у різних регіонах України, забезпечуючи, що допомога не обмежується конкретними областями, але є доступною для тих, хто потребує допомоги по всій країні."
+          },
+          {
+            "tag": "Співпраця та З'єднання Громади",
+            "desc": "Отримувачі, які активно спілкуються зі спільнотою CompassionCare Ukraine, сприяючи розвитку зв'язків та відчуттю спільної відповідальності, можуть бути віддані перевагу під час процесу відбору."
+          },
+          {
+            "tag": "Голістичне Благополуччя",
+            "desc": "Хоча матеріальна підтримка є важливою, також буде враховано отримувачів, які можуть скористатися додатковими ресурсами, керівництвом, консультуванням або програмами зміцнення, що сприяють загальному благополуччю."
+          },
+          {
+            "tag": "Сталість",
+            "desc": "Будуть вжиті заходи для підтримки отримувачів таким чином, щоб сприяти їх самостійності та сталості, сприяючи співпраці з місцевими підприємствами, організаціями та ресурсами для створення довготривалого впливу."
+          },
+          {
+            "tag": "Рівний Перерозподіл Ресурсів",
+            "desc": "Проект прагнуватиме розподіляти наявні ресурси справедливо, забезпечуючи, що ті, хто потребує найбільше допомоги, отримають необхідну підтримку."
+          },
+          {
+            "tag": "Прозорість та Відповідальність",
+            "desc": "CompassionCare Ukraine прагне забезпечити прозорість та відповідальність у всіх своїх операціях. Отримувачі будуть інформовані про надану допомогу та її джерело."
+          },
+          {
+            "tag": "Економічна Потреба",
+            "desc": "Пріоритет буде надано особам та сім'ям, які зазнають економічних труднощів та мають проблеми з задоволенням своїх основних потреб, включаючи їжу, одяг та щоденні необхідності."
+          },
+          {
+            "tag": "Вразливі Групи",
+            "desc": "Спеціальна увага буде приділятися вразливим групам, таким як діти, літні особи, особи з інвалідністю та одинокі матері, які можуть бути більш вразливими перед економічними труднощами."
+          },
+          {
+            "tag": "Доведена Потреба",
+            "desc": "Заявники повинні надати чітку та перевірену інформацію про свою поточну фінансову ситуацію, включаючи докази економічних труднощів, для визначення їх придатності для отримання допомоги."
+          },
+          {
+            "tag": "Гідність та Повага",
+            "desc": "CompassionCare Ukraine надає велику цінність збереженню гідності та самоповаги отримувачів. Заявники будуть розглядатися з співчуттям та розумінням на протязі процесу подачі заявки та отримання допомоги."
+          }
+        ]
+      }
+    ],
+    "imgCover": "project-1.jpg"
+  }
+]
