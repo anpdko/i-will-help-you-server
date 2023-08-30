@@ -150,7 +150,7 @@
         ]
       }
     ],
-    "imgCover": "project-1.jpg"
+    "imgCover": "/static/images/projects/project-1.jpg"
   },
   {
     "translations": [
@@ -295,7 +295,7 @@
         ]
       }
     ],
-    "imgCover": "project-2.jpg"
+    "imgCover": "/static/images/projects/project-2.jpg"
   },
   {
     "translations": [
@@ -448,7 +448,7 @@
         ]
       }
     ],
-    "imgCover": "project-3.jpg"
+    "imgCover": "/static/images/projects/project-3.jpg"
   },
   {
     "translations": [
@@ -601,7 +601,7 @@
         ]
       }
     ],
-    "imgCover": "project-4.jpg"
+    "imgCover": "/static/images/projects/project-4.jpg"
   },
   {
     "translations": [
@@ -766,7 +766,7 @@
         ]
       }
     ],
-    "imgCover": "project-5.jpg"
+    "imgCover": "/static/images/projects/project-5.jpg"
   },
   {
     "translations": [
@@ -919,6 +919,6 @@
         ]
       }
     ],
-    "imgCover": "project-1.jpg"
+    "imgCover": "/static/images/projects/project-6.jpg"
   }
 ]
