@@ -53,7 +53,7 @@ router.post('/login', async (req, res) => {
       if (!admin) {
          return res.status(400).json({
             message: {
-               login: 'Incorrect data during registration'
+               login: 'Incorrect login. Please try again'
             }
          })
       }
@@ -63,7 +63,7 @@ router.post('/login', async (req, res) => {
       if (!isMatch) {
          return res.status(400).json({
             message: {
-               password: 'Incorrect data during registration!'
+               password: 'Incorrect password. Please try again'
             }
          })
       }
