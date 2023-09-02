@@ -3,6 +3,20 @@ const router = express.Router();
 const Reviews = require('../models/reviews.module');
 const { verifyToken } = require('../middleware/admin.middleware');
 
+
+// const data = require("../data/reviews.json")
+// router.get('/add', (req, res) => {
+//   try {
+//     data.map(async (elem) => {
+//       await Reviews.create(elem)
+//     })
+//     res.json("OK")
+//   }
+//   catch(err) {
+//     console.log(err);
+//   }
+// });
+
 // GET api/reviews - Get all reviews
 router.get('/', (req, res) => {
   try {
