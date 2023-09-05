@@ -1,7 +1,7 @@
 const { Volunteers } = require("../../models/readyneed.module");
 
 const getAllVolunteers = async (req, res) => {
-  const result = await Volunteers.find(_, "-createdAt -updatedAt");
+  const result = await Volunteers.find().select({ createdAt: 0, updatedAt: 0 });
   res.status(200);
   res.json({
     code: 200,
