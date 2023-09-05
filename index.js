@@ -1,41 +1,55 @@
-require('dotenv').config()
-const express = require('express')
-const mongoose = require('mongoose')
-const cors = require('cors');
-const path = require('path')
+require("dotenv").config();
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
+const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const { PORT = 5000, URL_MONGO } = process.env;
 
 app.use(cors({ origin: true, credentials: true }));
 
-app.use(express.json({extensions: true}))
-app.get('/', (req, res) => {
-   res.send("Server listening on port 5000");
-})
+app.use(express.json({ extensions: true }));
+app.get("/", (req, res) => {
+  res.send(`Server listening on port: ${PORT}`);
+});
 
-app.use('/static/images', express.static(path.join(__dirname, 'static/images')))
+app.use(
+  "/static/images",
+  express.static(path.join(__dirname, "static/images"))
+);
 
-app.use('/api/admin', require('./routes/admin.route'))
-app.use('/api/news', require('./routes/news.route')) 
-app.use('/api/reviews', require('./routes/reviews.route'))
-app.use('/api/projects', require('./routes/projects.route'))
+app.use("/api/admin", require("./routes/admin.route"));
+app.use("/api/news", require("./routes/news.route"));
+app.use("/api/reviews", require("./routes/reviews.route"));
+app.use("/api/projects", require("./routes/projects.route"));
+
+app.use("/api/readyneed", require("./routes/readyneed.route"));
+
+app.use((res, req) => {
+  res.status(404).json({ message: "Not Found" });
+});
+
+app.use((error, req, res, next) => {
+  const { status = 500, message = "Server error" } = error;
+  res.status(status).json({ message });
+});
 
 const start = async () => {
-   try{
-      mongoose.set("strictQuery", true);
-      await mongoose.connect(process.env.URL_MONGO, {
-         useNewUrlParser: true,
-         useUnifiedTopology: true,
-      })
-      console.log('Connect MongoDB');
-      app.listen(PORT, () => {
-         console.log("Server listening on port " + PORT)
-      })
-   }
-   catch(err){
-      console.error(err)
-   }
-}
+  try {
+    mongoose.set("strictQuery", true);
+    await mongoose.connect(URL_MONGO, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log("Connect MongoDB");
+    app.listen(PORT, () => {
+      console.log(`Server listening on port: ${PORT}`);
+    });
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
+};
 
-start()
+start();
