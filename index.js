@@ -8,7 +8,6 @@ const app = express();
 const { PORT = 5000, URL_MONGO } = process.env;
 
 app.use(cors({ origin: true, credentials: true }));
-
 app.use(express.json({ extensions: true }));
 app.get("/", (req, res) => {
   res.send(`Server listening on port: ${PORT}`);
@@ -19,12 +18,18 @@ app.use(
   express.static(path.join(__dirname, "static/images"))
 );
 
+app.get("/config", (req, res) => {
+  res.send({
+    publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
+  });
+});
+
 app.use("/api/admin", require("./routes/admin.route"));
 app.use("/api/news", require("./routes/news.route"));
 app.use("/api/reviews", require("./routes/reviews.route"));
 app.use("/api/projects", require("./routes/projects.route"));
-
 app.use("/api/readyneed", require("./routes/readyneed.route"));
+app.use("/api/payment", require("./routes/payment.route"));
 
 app.use((res, req) => {
   res.status(404).json({ message: "Not Found" });
