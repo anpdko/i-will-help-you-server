@@ -2,8 +2,12 @@ const express = require('express');
 const router = express.Router();
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY, {
-   apiVersion: "2022-08-01",
+    apiVersion: "2022-08-01"
  });
+
+ stripe.applePayDomains.create({
+  domain_name: 'i-will-help-you.netlify.app'
+});
 
 router.get("/config", (req, res) => {
    res.send({
@@ -14,12 +18,11 @@ router.get("/config", (req, res) => {
 router.post("/create-payment-intent", async (req, res) => {
    try {
      const paymentIntent = await stripe.paymentIntents.create({
-       currency: "EUR",
-       amount: 1999,
+       currency: "usd",
+       amount: 2500,
        automatic_payment_methods: { enabled: true },
      });
  
-     // Send publishable key and PaymentIntent details to client
      res.send({
        clientSecret: paymentIntent.client_secret,
      });
