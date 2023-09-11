@@ -34,19 +34,6 @@ router.post("/create-payment-intent", async (req, res) => {
        },
      });
    }
- });
-
-    // Send publishable key and PaymentIntent details to client
-    res.send({
-      clientSecret: paymentIntent.client_secret,
-    });
-  } catch (e) {
-    return res.status(400).send({
-      error: {
-        message: e.message,
-      },
-    });
-  }
 });
 
 module.exports = router;
