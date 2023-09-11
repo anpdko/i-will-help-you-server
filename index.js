@@ -7,7 +7,20 @@ const path = require("path");
 const app = express();
 const { PORT = 5000, URL_MONGO } = process.env;
 
-app.use(cors({ origin: true, credentials: true }));
+const allowedOrigins = ["https://iwillhelpyou.charity"];
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.json({ extensions: true }));
 app.get("/", (req, res) => {
   res.send(`Server listening on port: ${PORT}`);
