@@ -30,7 +30,7 @@ app.use("/api/reviews", require("./routes/reviews.route"));
 app.use("/api/projects", require("./routes/projects.route"));
 app.use("/api/readyneed", require("./routes/readyneed.route"));
 app.use("/api/payment", require("./routes/payment.route"));
-app.use("/api/upload-image", require("./routes/uploadImage.route"));
+// app.use("/api/upload-image", require("./routes/uploadImage.route"));
 
 app.use((res, req) => {
   res.status(404).json({ message: "Not Found" });
