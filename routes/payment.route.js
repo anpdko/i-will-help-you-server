@@ -2,10 +2,10 @@ const express = require('express');
 const router = express.Router();
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY, {
-    apiVersion: "2022-08-01"
- });
+  apiVersion: "2022-08-01"
+});
 
- stripe.applePayDomains.create({
+stripe.applePayDomains.create({
   domain_name: 'i-will-help-you.netlify.app'
 });
 
