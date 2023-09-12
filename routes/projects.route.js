@@ -34,7 +34,7 @@ router.get('/', (req, res) => {
 });
 
 // GET api/projects - Get all projects
-router.get('/titles', (req, res) => {
+router.get('/title', (req, res) => {
   try {
       Projects.find()
       .then(projects =>{
