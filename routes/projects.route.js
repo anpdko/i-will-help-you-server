@@ -33,6 +33,33 @@ router.get('/', (req, res) => {
   }
 });
 
+// GET api/projects - Get all projects
+router.get('/titles', (req, res) => {
+  try {
+      Projects.find()
+      .then(projects =>{
+        const data = [];
+        for(let project of projects) {
+          const tempProject = []
+          for(let translation of project.translations) {
+            tempProject.push({
+              language: translation.language,
+              title: translation.title
+            })
+          }
+          data.push(tempProject)
+        }
+        res.json(data)
+      })
+      .catch(err => {
+        res.status(404).json({ message: 'Projects not found' })});
+  }
+  catch(err) {
+    console.log(err);
+    res.status(404).json({ err, message: 'Server Error' });
+  }
+});
+
 // GET api/projects/:id - Get one project by id
 router.get('/:id', (req, res) => {
   console.log("id: ", req.params.id)
