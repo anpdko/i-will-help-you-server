@@ -7,12 +7,25 @@ const needHelpsAddSchema = Joi.object({
   lastName: Joi.string().min(2).required(),
   email: Joi.string().pattern(emailRegexp).required(),
   phone: Joi.string().required(),
-  checkboxes: Joi.object().pattern(
-    Joi.string(),
-    Joi.boolean()
-  ).min(1).required(),
+  typeOfAssistance: Joi.array()
+    .items(
+      Joi.object({
+        name: Joi.string().required(),
+        isActive: Joi.boolean().default(false),
+      })
+    )
+    .min(1)
+    .required(),
   comment: Joi.string(),
-  nameFileLoading: Joi.string(),
+  file: Joi.array()
+    .items(
+      Joi.object({
+        name: Joi.string().required(),
+        file: Joi.binary(),
+      })
+    )
+    .min(1)
+    .required(),
   mailing: Joi.boolean(),
   dataProcessing: Joi.boolean().required(),
 });
@@ -21,12 +34,25 @@ const needHelpsUpdateSchema = Joi.object({
   firstName: Joi.string().min(2),
   lastName: Joi.string().min(2),
   phone: Joi.string(),
-  checkboxes: Joi.object().pattern(
-    Joi.string(),
-    Joi.boolean()
-  ).min(1).required(),
+  typeOfAssistance: Joi.array()
+    .items(
+      Joi.object({
+        name: Joi.string().required(),
+        isActive: Joi.boolean().default(false),
+      })
+    )
+    .min(1)
+    .required(),
   email: Joi.string().pattern(emailRegexp),
-  nameFileLoading: Joi.string(),
+  file: Joi.array()
+    .items(
+      Joi.object({
+        name: Joi.string().required(),
+        file: Joi.binary(),
+      })
+    )
+    .min(1)
+    .required(),
   comment: Joi.string(),
   mailing: Joi.boolean(),
   dataProcessing: Joi.boolean().required(),

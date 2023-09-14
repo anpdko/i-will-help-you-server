@@ -19,30 +19,26 @@ const needHelpsSchema = new Schema(
       required: true,
       unique: true,
     },
-    nameFileLoading: {
-      type: String,
-    },
-    opportunityConnect: {
-      type: Boolean,
-    },
-    healingHaven: {
-      type: Boolean,
-    },
-    eduHorizon: {
-      type: Boolean,
-    },
-    eduConnect: {
-      type: Boolean,
-    },
-    contentUplift: {
-      type: Boolean,
-    },
-    compassionCare: {
-      type: Boolean,
-    },
-    project7: {
-      type: Boolean,
-    },
+    file: [{
+      fileName: {
+        type: String,
+        required: true,
+      },
+      fileData: {
+        type: Buffer, // Використовуйте тип Buffer для зберігання даних файлу
+        required: true,
+      },
+    }],
+    typeOfAssistance:[{
+      name: {
+        type: String,
+        required: true,
+      },
+      isActive: {
+        type: Boolean,
+        default: false,
+      },
+    }],
     comment: {
       type: String,
       default: "",
@@ -59,17 +55,7 @@ const needHelpsSchema = new Schema(
   { versionKey: false, timestamps: true }
 );
 
-needHelpsSchema.path("opportunityConnect").validate(function () {
-  return (
-    this.opportunityConnect ||
-    this.healingHaven ||
-    this.eduHorizon ||
-    this.eduConnect ||
-    this.contentUplift ||
-    this.compassionCare ||
-    this.project7
-  );
-}, "At least one checkbox must be selected.");
+
 
 const needHelps = mongoose.model("needHelps", needHelpsSchema);
 
