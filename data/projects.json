@@ -925,9 +925,35 @@
     "translations": [
       {
         "language": "en",
-        "title": "Global Legal Aid Initiative",
-        "slogan": "",
+        "title": "Global Legal Aid",
+        "slogan": "Global Legal Aid Initiative for Ukrainians",
         "description": "The Charity Foundation's Global Legal Aid Initiative is dedicated to providing comprehensive legal assistance and empowerment to Ukrainian refugees who have been displaced by the Russian-Ukrainian war and are navigating unfamiliar legal landscapes in foreign countries. In order to ensure that the assistance reaches those who need it the most, the following selection criteria will be applied:",
+        "goals": [
+          {
+            "tag": "Holistic Legal Assistance",
+            "desc": "Extend a helping hand to Ukrainian refugees as they grapple with the complexities of legal systems in foreign countries, nurturing a sense of belonging and protection."
+          },
+          {
+            "tag": "Educational Empowerment",
+            "desc": "Empower displaced Ukrainians with the knowledge to comprehend their rights, obligations, and potential legal challenges encountered in their new homelands."
+          },
+          {
+            "tag": "Global Collaborative Network",
+            "desc": "Forge strategic alliances with international legal bodies, practitioners, and philanthropic entities, amplifying the impact of our legal aid services."
+          },
+          {
+            "tag": "Advocacy and Resilience",
+            "desc": "Serve as staunch advocates for the equitable treatment and just representation of Ukrainian refugees across diverse global jurisdictions."
+          },
+          {
+            "tag": "Community Cohesion",
+            "desc": "Cultivate a compassionate community that unites displaced Ukrainians, legal experts, volunteers, and fellow citizens to exchange insights, wisdom, and resources."
+          },
+          {
+            "tag": "Enduring Enhancement",
+            "desc": "Embrace a culture of continuous refinement, perpetually adapting our services based on user insights, emerging legal trends, and the evolving needs of the global diaspora."
+          }
+        ],
         "criteria": [
           {
             "tag": "Ukrainian Refugee Status",
@@ -973,9 +999,35 @@
       },
       {
         "language": "uk",
-        "title": "Глобальна ініціатива з правової допомоги",
-        "slogan": "",
+        "title": "Глобальна правова допомога",
+        "slogan": "Глобальна ініціатива правової допомоги українцям",
         "description": "Глобальна ініціатива з правової допомоги спрямована на надання всебічної правової допомоги та розширення прав і можливостей українським біженцям, які були переміщені внаслідок російсько-української війни та перебувають у незнайомих правових ландшафтах зарубіжних країн. Для того, щоб гарантувати, що допомога досягне тих, хто її найбільше потребує, застосовуватимуться такі критерії відбору:",
+        "goals": [
+          {
+            "tag": "Гармонійна правова допомога",
+            "desc": "Протягом допомагаємо українським біженцям впоратися з складнощами юридичних систем у чужих країнах, сприяючи почуттю належності та захисту."
+          },
+          {
+            "tag": "Освітня надана можливість",
+            "desc": "Надавати переміщеним українцям знання, які допоможуть їм зрозуміти свої права, обов'язки та можливі юридичні виклики, з якими вони можуть стикатися у своїх нових країнах."
+          },
+          {
+            "tag": "Глобальна спільна мережа",
+            "desc": "Укладати стратегічні союзи з міжнародними юридичними організаціями, практиками та філантропічними структурами, підсилюючи вплив наших юридичних послуг."
+          },
+          {
+            "tag": "Адвокатура та стійкість",
+            "desc": "Виступати як рішучі захисники справедливого ставлення та справедливого представництва українських біженців у різних міжнародних юрисдикціях."
+          },
+          {
+            "tag": "Спільність та єдність",
+            "desc": "Вирощувати співчутливу спільноту, що об'єднує переміщених українців, юридичних експертів, волонтерів та співгромадян для обміну інсайтами, мудрістю та ресурсами."
+          },
+          {
+            "tag": "Стійке вдосконалення",
+            "desc": "Впроваджувати культуру постійного удосконалення, постійно адаптуючи наші послуги на основі відгуків користувачів, нових юридичних тенденцій та змінних потреб глобальної діаспори."
+          }
+        ],
         "criteria": [
           {
             "tag": "Статус українського біженця",
