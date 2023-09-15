@@ -5,7 +5,7 @@
         "language": "en",
         "title": "OpportunityConnect",
         "slogan": "Building new bridges and fostering connections",
-        "description": "OpportunityConnect Ukraine is a groundbreaking endeavor designed to bridge the divide between Ukrainians living abroad and the potential employment opportunities that await them. As a testament to our enduring commitment to the Ukrainian diaspora, this project is dedicated to fostering connections, creating pathways to meaningful work, and empowering displaced Ukrainians to harness their skills and aspirations in their new homes.\n\nIn the wake of conflict and displacement, many talented Ukrainians have found themselves in foreign lands, seeking refuge and a chance to rebuild their lives. OpportunityConnect Ukraine emerges as a beacon of hope, actively identifying and forging partnerships with companies willing to welcome Ukrainian talent. Our goal is not only to secure jobs but to empower individuals with the tools to flourish professionally, contributing positively to their host communities and embracing new horizons.",
+        "description": "OpportunityConnect Ukraine is a groundbreaking endeavor designed to bridge the divide between Ukrainians living abroad and the potential employment opportunities that await them. As a testament to our enduring commitment to the Ukrainian diaspora, this project is dedicated to fostering connections, creating pathways to meaningful work, and empowering displaced Ukrainians to harness their skills and aspirations in their new homes.\n\nIn the wake of the war and displacement, many talented Ukrainians have found themselves in foreign lands, seeking refuge and a chance to rebuild their lives. OpportunityConnect Ukraine emerges as a beacon of hope, actively identifying and forging partnerships with companies willing to welcome Ukrainian talent. Our goal is not only to secure jobs but to empower individuals with the tools to flourish professionally, contributing positively to their host communities and embracing new horizons.",
         "goals": [
           {
             "tag": "Global Networking",
@@ -35,7 +35,7 @@
         "criteria": [
           {
             "tag": "Displaced Ukrainians",
-            "desc": "Priority will be given to individuals who have been directly affected by conflict and displacement and are seeking employment opportunities in foreign countries."
+            "desc": "Priority will be given to individuals who have been directly affected by the war and displacement and are seeking employment opportunities in foreign countries."
           },
           {
             "tag": "Skill and Expertise",
@@ -79,7 +79,7 @@
         "language": "ua",
         "title": "OpportunityConnect",
         "slogan": "Будівництво нових мостів та сприяння зв'язкам",
-        "description": "OpportunityConnect Ukraine - це революційна ініціатива, спрямована на зменшення розриву між українцями, що проживають за кордоном, та можливостями зайнятості, які їх чекають. Цей проект є виразом нашої нескоренної прив'язаності до української діаспори і спрямований на сприяння зв'язкам, створення шляхів до значущої роботи та надання можливості переміщеним українцям використовувати свої навички та амбіції у новому оточенні. \n\nПісля конфлікту та переміщень багато талановитих українців опинилися в чужих країнах, шукаючи притулку та можливості відновити свої життя. OpportunityConnect Ukraine виступає як світловий маяк надії, активно визначаючи та встановлюючи партнерства з компаніями, які готові вітати український талант. Нашою метою є не лише забезпечення робочих місць, але й надання особам інструментів для професійного росту, позитивного внеску в гостинні спільноти та відкриття нових горизонтів.",
+        "description": "OpportunityConnect Ukraine - це революційна ініціатива, спрямована на зменшення розриву між українцями, що проживають за кордоном, та можливостями зайнятості, які їх чекають. Цей проект є виразом нашої нескоренної прив'язаності до української діаспори і спрямований на сприяння зв'язкам, створення шляхів до значущої роботи та надання можливості переміщеним українцям використовувати свої навички та амбіції у новому оточенні. \n\nВ результаті війни та переміщень багато талановитих українців опинилися в чужих країнах, шукаючи притулку та можливості відновити свої життя. OpportunityConnect Ukraine виступає як світловий маяк надії, активно визначаючи та встановлюючи партнерства з компаніями, які готові вітати український талант. Нашою метою є не лише забезпечення робочих місць, але й надання особам інструментів для професійного росту, позитивного внеску в гостинні спільноти та відкриття нових горизонтів.",
         "goals": [
           {
             "tag": "Глобальна мережа спілкування",
@@ -109,7 +109,7 @@
         "criteria": [
           {
             "tag": "Зміщені українці",
-            "desc": "Пріоритет буде надано особам, які безпосередньо постраждали від конфлікту та переміщень і шукають можливості працевлаштування в інших країнах."
+            "desc": "Пріоритет буде надано особам, які безпосередньо постраждали від війни та переміщень і шукають можливості працевлаштування в інших країнах."
           },
           {
             "tag": "Навички та експертиза",
@@ -158,7 +158,7 @@
         "language": "en",
         "title": "HealingHaven ",
         "slogan": "Guiding light in the path to recovery",
-        "description": "HealingHaven Ukraine is an empathetic sanctuary born from a deep understanding of the traumatic toll inflicted by the Russian-Ukrainian war. As a refuge of healing and restoration, this project stands as a testament to our commitment to the millions of Ukrainians who seek solace and support in the aftermath of the conflict. We recognize that the scars of war extend beyond the physical, and the emotional wounds carried by those who have experienced the horrors of war are deeply profound.\n\nIn the years 2022-2023, more than 8 million Ukrainians fled the ravages of war, leaving behind shattered lives, lost loved ones, and haunting memories. Many of these brave souls now carry heavy burdens of grief, anxiety, depression, and trauma. HealingHaven Ukraine emerges as a guiding light, providing a compassionate hand to help them navigate the path toward healing and resilience.",
+        "description": "HealingHaven Ukraine is an empathetic sanctuary born from a deep understanding of the traumatic toll inflicted by the Russian-Ukrainian war. As a refuge of healing and restoration, this project stands as a testament to our commitment to the millions of Ukrainians who seek solace and support in the aftermath of the war. We recognize that the scars of war extend beyond the physical, and the emotional wounds carried by those who have experienced the horrors of war are deeply profound.\n\nIn the years 2022-2023, more than 8 million Ukrainians fled the ravages of war, leaving behind shattered lives, lost loved ones, and haunting memories. Many of these brave souls now carry heavy burdens of grief, anxiety, depression, and trauma. HealingHaven Ukraine emerges as a guiding light, providing a compassionate hand to help them navigate the path toward healing and resilience.",
         "goals": [
           {
             "tag": "Comprehensive Mental Health Support",
@@ -184,7 +184,7 @@
         "criteria": [
           {
             "tag": "War-Affected Individuals",
-            "desc": "Priority is given to individuals who have experienced direct or indirect exposure to the Russian-Ukrainian war, such as civilians who witnessed conflict, displacement, loss of loved ones, or other traumatic events."
+            "desc": "Priority is given to individuals who have experienced direct or indirect exposure to the Russian-Ukrainian war, such as civilians who witnessed the war, displacement, loss of loved ones, or other traumatic events."
           },
           {
             "tag": "Ukrainian Nationals",
@@ -228,7 +228,7 @@
         "language": "ua",
         "title": "HealingHaven",
         "slogan": "Путівник у світло шляху до одужання",
-        "description": "HealingHaven Ukraine - це співчутливий прихисток, заснований на глибокому розумінні травматичних наслідків російсько-української війни. Як пристань одужання та відновлення, цей проект є виразом нашого зобов'язання перед мільйонами українців, які шукають заспокоєння та підтримку внаслідок конфлікту. Ми розуміємо, що шрами війни виходять далеко за межі фізичних, а емоційні рани, які несуть ті, хто пережив жахіття війни, є дуже глибокими.\n\nУ 2022-2023 роках понад 8 мільйонів українців втекли від наслідків війни, залишивши позаду розірвані життя, втрачених близьких та мучущі спогади. Багато з цих хоробрих душ нині несуть важкі тягарі горя, тривожності, депресії та травми. HealingHaven Ukraine виступає як путівник у світло, надаючи співчутливу руку, щоб допомогти їм пройти шлях одужання та стійкості.",
+        "description": "HealingHaven Ukraine - це співчутливий прихисток, заснований на глибокому розумінні травматичних наслідків російсько-української війни. Як пристань одужання та відновлення, цей проект є виразом нашого зобов'язання перед мільйонами українців, які шукають заспокоєння та підтримку внаслідок війни. Ми розуміємо, що шрами війни виходять далеко за межі фізичних, а емоційні рани, які несуть ті, хто пережив жахіття війни, є дуже глибокими.\n\nУ 2022-2023 роках понад 8 мільйонів українців втекли від наслідків війни, залишивши позаду розірвані життя, втрачених близьких та мучущі спогади. Багато з цих хоробрих душ нині несуть важкі тягарі горя, тривожності, депресії та травми. HealingHaven Ukraine виступає як путівник у світло, надаючи співчутливу руку, щоб допомогти їм пройти шлях одужання та стійкості.",
         "goals": [
           {
             "tag": "Загальна підтримка психічного здоров'я",
@@ -254,7 +254,7 @@
         "criteria": [
           {
             "tag": "Особи, постраждалі від війни",
-            "desc": "Пріоритет надається особам, які безпосередньо або опосередковано зазнали впливу російсько-української війни, таким як цивільні, які бачили конфлікт, переміщення, втрату близьких або інші травматичні події."
+            "desc": "Пріоритет надається особам, які безпосередньо або опосередковано зазнали впливу російсько-української війни, таким як цивільні, які були свідками війни, переміщення, втрату близьких або інші травматичні події."
           },
           {
             "tag": "Громадяни України",
@@ -333,7 +333,7 @@
         "criteria": [
           {
             "tag": "Displaced Ukrainian Scholars",
-            "desc": "Priority will be given to students who have been directly affected by the conflict and are seeking higher education opportunities abroad due to displacement from their home regions."
+            "desc": "Priority will be given to students who have been directly affected by the war and are seeking higher education opportunities abroad due to displacement from their home regions."
           },
           {
             "tag": "Academic Promise",
@@ -407,7 +407,7 @@
         "criteria": [
           {
             "tag": "Вигнані українські науковці",
-            "desc": "Пріоритет буде надано студентам, які безпосередньо постраждали внаслідок конфлікту і шукають можливості вищої освіти за кордоном через переміщення зі своїх рідних регіонів."
+            "desc": "Пріоритет буде надано студентам, які безпосередньо постраждали внаслідок війни і шукають можливості вищої освіти за кордоном через переміщення зі своїх рідних регіонів."
           },
           {
             "tag": "Академічні обіцянки",
@@ -609,7 +609,7 @@
         "language": "en",
         "title": "ContentUplift",
         "slogan": "Advancement of Ukrainian culture, creativity, and innovation",
-        "description": "ContentUplift Ukraine emerges as a driving force behind the preservation and advancement of Ukrainian culture, creativity, and innovation. In an era of digital transformation, this initiative seeks to empower content creators, storytellers, and artists to amplify their voices and share their narratives with the world, transcending borders and enriching global discourse. \n\nAmid the challenges brought about by conflict and displacement, many Ukrainian creators  have been limited in their ability to harness the power of technology for their endeavors. ContentUplift Ukraine is a testament to our commitment to nurturing artistic expression, providing the tools and support needed for individuals to generate impactful content. By procuring computers, offering technical guidance, and facilitating scriptwriting workshops,     we aim to propel the Ukrainian creative spirit to new heights.",
+        "description": "ContentUplift Ukraine emerges as a driving force behind the preservation and advancement of Ukrainian culture, creativity, and innovation. In an era of digital transformation, this initiative seeks to empower content creators, storytellers, and artists to amplify their voices and share their narratives with the world, transcending borders and enriching global discourse. \n\nAmid the challenges brought about by the war and displacement, many Ukrainian creators  have been limited in their ability to harness the power of technology for their endeavors. ContentUplift Ukraine is a testament to our commitment to nurturing artistic expression, providing the tools and support needed for individuals to generate impactful content. By procuring computers, offering technical guidance, and facilitating scriptwriting workshops,     we aim to propel the Ukrainian creative spirit to new heights.",
         "goals": [
           {
             "tag": "Technology Empowerment",
@@ -683,7 +683,7 @@
         "language": "ua",
         "title": "ContentUplift",
         "slogan": "Розвиток української культури, творчості та інновацій",
-        "description": "ContentUplift Ukraine виступає як сила, що сприяє збереженню та розвитку української культури, творчості та інновацій. У ері цифрової трансформації ця ініціатива прагне дати змогу творцям контенту, розповідачам та митцям підсилити свої голоси та поділитися своєю наративною спадщиною зі світом, перетинаючи кордони та збагачуючи глобальний дискурс.\n\nНезважаючи на виклики, що виникли внаслідок конфлікту та переміщення, багатьох українських творців обмежена їхня здатність використовувати потужність технологій для своїх зусиль. ContentUplift Ukraine свідчить про наше прагнення доглядати за художнім самовираженням, надаючи інструменти та підтримку, необхідні для створення впливового контенту. Шляхом забезпечення комп'ютерів, надання технічної підтримки та проведення майстер-класів з написання сценаріїв ми спрямовуємо український творчий дух до нових вершин.",
+        "description": "ContentUplift Ukraine виступає як сила, що сприяє збереженню та розвитку української культури, творчості та інновацій. У ері цифрової трансформації ця ініціатива прагне дати змогу творцям контенту, розповідачам та митцям підсилити свої голоси та поділитися своєю наративною спадщиною зі світом, перетинаючи кордони та збагачуючи глобальний дискурс.\n\nНезважаючи на виклики, що виникли внаслідок війни та переміщення, багатьох українських творців обмежена їхня здатність використовувати потужність технологій для своїх зусиль. ContentUplift Ukraine свідчить про наше прагнення доглядати за художнім самовираженням, надаючи інструменти та підтримку, необхідні для створення впливового контенту. Шляхом забезпечення комп'ютерів, надання технічної підтримки та проведення майстер-класів з написання сценаріїв ми спрямовуємо український творчий дух до нових вершин.",
         "goals": [
           {
             "tag": "Зміцнення технологій",
