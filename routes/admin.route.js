@@ -7,36 +7,36 @@ const jwtToken = require('jsonwebtoken')
 const { verifyToken } = require('../middleware/admin.middleware');
 
 
-// router.post('/registration', async (req, res) => {
-//    try {
-//       const { login, password } = req.body
+router.post('/registration', async (req, res) => {
+   try {
+      const { login, password } = req.body
 
-//       if (!login || !password) {
-//          return res.status(400).json({ message: 'Incorrect data during registration' })
-//       }
+      if (!login || !password) {
+         return res.status(400).json({ message: 'Incorrect data during registration' })
+      }
 
-//       const hashedPassword = await bcrypt.hash(password, 12)
+      const hashedPassword = await bcrypt.hash(password, 12)
 
-//       const admin = new Admin({
-//          login, password: hashedPassword
-//       })
+      const admin = new Admin({
+         login, password: hashedPassword
+      })
       
-//       try {
-//          await admin.save()
-//          res.status(201).json({ message: 'Admin created' })
-//       } catch (error) {
-//          if (error.code === 11000 && error.keyPattern && 'login' in error.keyPattern) {
-//             return res.status(409).json({ message: 'Login already exists' })
-//          }
-//          res.status(400).json({ message: 'Error creating admin' })
-//          console.error(error)
-//       }
-//    }
-//    catch (error) {
-//       res.status(500).json({ message: 'Internal server error' })
-//       console.error(error)
-//    }
-// })
+      try {
+         await admin.save()
+         res.status(201).json({ message: 'Admin created' })
+      } catch (error) {
+         if (error.code === 11000 && error.keyPattern && 'login' in error.keyPattern) {
+            return res.status(409).json({ message: 'Login already exists' })
+         }
+         res.status(400).json({ message: 'Error creating admin' })
+         console.error(error)
+      }
+   }
+   catch (error) {
+      res.status(500).json({ message: 'Internal server error' })
+      console.error(error)
+   }
+})
 
 router.get('/is/registered', verifyToken,  async (req, res) => {
    return res.status(200).json({
