@@ -1,9 +1,9 @@
-const { needHelps } = require("../../models/needhelps.module");
+const { NeedHelps } = require("../../models/needhelps.module");
 const { HttpError } = require("../../helpers");
 
 const getHelpRequestBiId = async (req, res) => {
   const { id } = req.params;
-  const helpRequest = await needHelps.findById(id, "-createdAt -updatedAt");
+  const helpRequest = await NeedHelps.findById(id, "-createdAt -updatedAt");
   if (!helpRequest) {
     throw HttpError(404, "Help reuqest not found");
   }

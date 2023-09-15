@@ -1,7 +1,7 @@
-const { needHelps } = require("../../models/needhelps.module");
+const { NeedHelps } = require("../../models/needhelps.module");
 
 const getAllHelpRequest = async (req, res) => {
-  const newNeedHelps = await needHelps.create({ ...req.body });
+  const newNeedHelps = await NeedHelps.create({ ...req.body });
   res.status(201);
   res.json({
     code: 201,

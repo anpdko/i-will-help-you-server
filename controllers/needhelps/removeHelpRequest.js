@@ -1,9 +1,9 @@
-const { needHelps } = require("../../models/readyneed.module");
+const { NeedHelps } = require("../../models/readyneed.module");
 const { HttpError } = require("../../helpers");
 
 const removeHelpRequest = async (req, res) => {
   const { id } = req.params;
-  const helpRequest = await needHelps.findByIdAndRemove(id);
+  const helpRequest = await NeedHelps.findByIdAndRemove(id);
   if (!helpRequest) {
     throw HttpError(404, "Help reuqest not found");
   }

@@ -1,9 +1,9 @@
-const { needHelps } = require("../../models/readyneed.module");
+const { NeedHelps } = require("../../models/readyneed.module");
 const { HttpError } = require("../../helpers");
 
 const updateHelpRequest = async (req, res) => {
   const { id } = req.params;
-  const result = await needHelps.findByIdAndUpdate(id, req.body, {
+  const result = await NeedHelps.findByIdAndUpdate(id, req.body, {
     new: true,
   }).select({ createdAt: 0, updatedAt: 0 });
 

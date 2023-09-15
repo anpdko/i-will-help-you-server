@@ -1,4 +1,4 @@
-const { Schema, model, default: mongoose } = require("mongoose");
+const { Schema, model, Types } = require("mongoose");
 
 const needHelpsSchema = new Schema(
   {
@@ -17,27 +17,13 @@ const needHelpsSchema = new Schema(
     email: {
       type: String,
       required: true,
-      unique: true,
     },
     file: [{
-      fileName: {
-        type: String,
-        required: true,
-      },
-      fileData: {
-        type: Buffer, // Використовуйте тип Buffer для зберігання даних файлу
-        required: true,
-      },
+      type: String,
     }],
     typeOfAssistance:[{
-      name: {
-        type: String,
-        required: true,
-      },
-      isActive: {
-        type: Boolean,
-        default: false,
-      },
+      type: Types.ObjectId, 
+      ref: 'projects'
     }],
     comment: {
       type: String,
@@ -46,17 +32,13 @@ const needHelpsSchema = new Schema(
     mailing: {
       type: Boolean,
       default: false,
-    },
-    dataProcessing: {
-      type: Boolean,
-      default: true,
-    },
+    }
   },
   { versionKey: false, timestamps: true }
 );
 
 
 
-const needHelps = mongoose.model("needHelps", needHelpsSchema);
+const NeedHelps = model("needHelps", needHelpsSchema);
 
-module.exports = { needHelps };
+module.exports = { NeedHelps };
