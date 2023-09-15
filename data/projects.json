@@ -36,6 +36,7 @@
           {
             "tag": "Displaced Ukrainians",
             "desc": "Priority will be given to individuals who have been directly affected by the war and displacement and are seeking employment opportunities in foreign countries."
+
           },
           {
             "tag": "Skill and Expertise",
@@ -159,6 +160,7 @@
         "title": "HealingHaven ",
         "slogan": "Guiding light in the path to recovery",
         "description": "HealingHaven Ukraine is an empathetic sanctuary born from a deep understanding of the traumatic toll inflicted by the Russian-Ukrainian war. As a refuge of healing and restoration, this project stands as a testament to our commitment to the millions of Ukrainians who seek solace and support in the aftermath of the war. We recognize that the scars of war extend beyond the physical, and the emotional wounds carried by those who have experienced the horrors of war are deeply profound.\n\nIn the years 2022-2023, more than 8 million Ukrainians fled the ravages of war, leaving behind shattered lives, lost loved ones, and haunting memories. Many of these brave souls now carry heavy burdens of grief, anxiety, depression, and trauma. HealingHaven Ukraine emerges as a guiding light, providing a compassionate hand to help them navigate the path toward healing and resilience.",
+
         "goals": [
           {
             "tag": "Comprehensive Mental Health Support",
@@ -185,6 +187,7 @@
           {
             "tag": "War-Affected Individuals",
             "desc": "Priority is given to individuals who have experienced direct or indirect exposure to the Russian-Ukrainian war, such as civilians who witnessed the war, displacement, loss of loved ones, or other traumatic events."
+
           },
           {
             "tag": "Ukrainian Nationals",
@@ -200,7 +203,7 @@
           },
           {
             "tag": "Demonstrated Need",
-            "desc": "Applicants must demonstrate a genuine need for psychological support and counseling due to their experiences during the war and its aftermath."
+            "desc": "Applicants must demonstrate a genuine need for psychological support and counseling due to their experiences during war and its aftermath."
           },
           {
             "tag": "Willingness to Engage in Therapy",
@@ -255,6 +258,7 @@
           {
             "tag": "Особи, постраждалі від війни",
             "desc": "Пріоритет надається особам, які безпосередньо або опосередковано зазнали впливу російсько-української війни, таким як цивільні, які були свідками війни, переміщення, втрату близьких або інші травматичні події."
+
           },
           {
             "tag": "Громадяни України",
@@ -920,5 +924,158 @@
       }
     ],
     "imgCover": "project-6.jpg"
+  },
+  {
+    "translations": [
+      {
+        "language": "en",
+        "title": "Global Legal Aid",
+        "slogan": "Global Legal Aid Initiative for Ukrainians",
+        "description": "The Charity Foundation's Global Legal Aid Initiative is dedicated to providing comprehensive legal assistance and empowerment to Ukrainian refugees who have been displaced by the Russian-Ukrainian war and are navigating unfamiliar legal landscapes in foreign countries. In order to ensure that the assistance reaches those who need it the most, the following selection criteria will be applied:",
+        "goals": [
+          {
+            "tag": "Holistic Legal Assistance",
+            "desc": "Extend a helping hand to Ukrainian refugees as they grapple with the complexities of legal systems in foreign countries, nurturing a sense of belonging and protection."
+          },
+          {
+            "tag": "Educational Empowerment",
+            "desc": "Empower displaced Ukrainians with the knowledge to comprehend their rights, obligations, and potential legal challenges encountered in their new homelands."
+          },
+          {
+            "tag": "Global Collaborative Network",
+            "desc": "Forge strategic alliances with international legal bodies, practitioners, and philanthropic entities, amplifying the impact of our legal aid services."
+          },
+          {
+            "tag": "Advocacy and Resilience",
+            "desc": "Serve as staunch advocates for the equitable treatment and just representation of Ukrainian refugees across diverse global jurisdictions."
+          },
+          {
+            "tag": "Community Cohesion",
+            "desc": "Cultivate a compassionate community that unites displaced Ukrainians, legal experts, volunteers, and fellow citizens to exchange insights, wisdom, and resources."
+          },
+          {
+            "tag": "Enduring Enhancement",
+            "desc": "Embrace a culture of continuous refinement, perpetually adapting our services based on user insights, emerging legal trends, and the evolving needs of the global diaspora."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Ukrainian Refugee Status",
+            "desc": "Applicants must be Ukrainian citizens who have been displaced from their homeland due to  war and are seeking refuge in foreign countries."
+          },
+          {
+            "tag": "Legal Assistance Needs",
+            "desc": "Priority will be given to applicants who require legal assistance and guidance to address specific challenges and complexities they face in foreign legal systems, such as residency status, immigration issues, employment rights, and access to basic services."
+          },
+          {
+            "tag": "Vulnerable Groups",
+            "desc": "Special consideration will be given to vulnerable groups, including women, children, elderly individuals, and persons with disabilities, who may require additional legal support and protection."
+          },
+          {
+            "tag": "Inability to Access Legal Aid",
+            "desc": "Applicants must demonstrate a lack of access to adequate legal aid resources or the means to afford legal representation in their host countries."
+          },
+          {
+            "tag": "Commitment to Empowerment",
+            "desc": "The Foundation seeks to empower applicants with knowledge and understanding of their rights and obligations in foreign countries. Therefore, priority will be given to individuals who are motivated to actively engage in the legal assistance process and are open to learning."
+          },
+          {
+            "tag": "Equitable Geographic Distribution",
+            "desc": "The Foundation aims to support Ukrainian refugees across various destinations. Therefore, efforts will be made to ensure an equitable distribution of legal aid services among different regions and countries."
+          },
+          {
+            "tag": "Demonstration of Need:",
+            "desc": "Applicants must provide detailed information about their specific legal challenges and the support they require. The Foundation will assess the level of need and the potential impact of the assistance on the applicant's well-being and future prospects."
+          },
+          {
+            "tag": "Compliance with Foundation's Core Values",
+            "desc": "Applicants should align with the core values of the Foundation, demonstrating a commitment to collaboration, integrity, inclusivity, compassion, and the pursuit of knowledge."
+          },
+          {
+            "tag": "Referrals and Recommendations",
+            "desc": "Referrals from reputable organizations, community leaders, or other stakeholders involved in supporting Ukrainian refugees will be taken into consideration during the selection process."
+          },
+          {
+            "tag": "Impact and Potential for Change",
+            "desc": "Preference will be given to applicants whose cases have the potential to create broader positive impacts on the lives of other Ukrainian refugees and contribute to advancing legal advocacy for displaced populations."
+          }
+        ]
+      },
+      {
+        "language": "uk",
+        "title": "Глобальна правова допомога",
+        "slogan": "Глобальна ініціатива правової допомоги українцям",
+        "description": "Глобальна ініціатива з правової допомоги спрямована на надання всебічної правової допомоги та розширення прав і можливостей українським біженцям, які були переміщені внаслідок російсько-української війни та перебувають у незнайомих правових ландшафтах зарубіжних країн. Для того, щоб гарантувати, що допомога досягне тих, хто її найбільше потребує, застосовуватимуться такі критерії відбору:",
+        "goals": [
+          {
+            "tag": "Гармонійна правова допомога",
+            "desc": "Протягом допомагаємо українським біженцям впоратися з складнощами юридичних систем у чужих країнах, сприяючи почуттю належності та захисту."
+          },
+          {
+            "tag": "Освітня надана можливість",
+            "desc": "Надавати переміщеним українцям знання, які допоможуть їм зрозуміти свої права, обов'язки та можливі юридичні виклики, з якими вони можуть стикатися у своїх нових країнах."
+          },
+          {
+            "tag": "Глобальна спільна мережа",
+            "desc": "Укладати стратегічні союзи з міжнародними юридичними організаціями, практиками та філантропічними структурами, підсилюючи вплив наших юридичних послуг."
+          },
+          {
+            "tag": "Адвокатура та стійкість",
+            "desc": "Виступати як рішучі захисники справедливого ставлення та справедливого представництва українських біженців у різних міжнародних юрисдикціях."
+          },
+          {
+            "tag": "Спільність та єдність",
+            "desc": "Вирощувати співчутливу спільноту, що об'єднує переміщених українців, юридичних експертів, волонтерів та співгромадян для обміну інсайтами, мудрістю та ресурсами."
+          },
+          {
+            "tag": "Стійке вдосконалення",
+            "desc": "Впроваджувати культуру постійного удосконалення, постійно адаптуючи наші послуги на основі відгуків користувачів, нових юридичних тенденцій та змінних потреб глобальної діаспори."
+          }
+        ],
+        "criteria": [
+          {
+            "tag": "Статус українського біженця",
+            "desc": "Заявники мають бути громадянами України, які були переміщені зі своєї батьківщини через конфлікт і шукають притулку в інших країнах."
+          },
+          {
+            "tag": "Потреби в юридичній допомозі",
+            "desc": "Пріоритет надаватиметься заявникам, яким потрібна юридична допомога та вказівки для вирішення конкретних проблем і складнощів, з якими вони стикаються в іноземних правових системах, таких як статус резидента, питання імміграції, права на працевлаштування та доступ до основних послуги."
+          },
+          {
+            "tag": "Уразливі групи",
+            "desc": "Особлива увага приділятиметься вразливим групам, включаючи жінок, дітей, людей похилого віку та людей з обмеженими можливостями, які можуть потребувати додаткової юридичної підтримки та захисту."
+          },
+          {
+            "tag": "Неможливість отримати доступ до юридичної допомоги",
+            "desc": "Заявники повинні продемонструвати відсутність доступу до відповідних ресурсів юридичної допомоги або засобів, щоб дозволити собі юридичне представництво в країні перебування."
+          },
+          {
+            "tag": "Зобов’язання щодо розширення можливостей",
+            "desc": "Фонд прагне надати заявникам знання та розуміння своїх прав і обов’язків в інших країнах. Таким чином, пріоритет надаватиметься особам, які мотивовані активно брати участь у процесі надання правової допомоги та відкриті до навчання."
+          },
+          {
+            "tag": "Рівномірний географічний розподіл",
+            "desc": "Фонд прагне підтримувати українських біженців у різних напрямках. Таким чином, будуть докладені зусилля для забезпечення справедливого розподілу послуг правової допомоги між різними регіонами та країнами."
+          },
+          {
+            "tag": "Демонстрація потреби",
+            "desc": "Заявники повинні надати детальну інформацію про свої конкретні правові проблеми та підтримку, яку вони потребують. Фонд оцінить рівень потреби та потенційний вплив допомоги на добробут і майбутні перспективи заявника."
+          },
+          {
+            "tag": "Відповідність основним цінностям Фонду",
+            "desc": "Кандидати повинні узгоджуватися з основними цінностями Фонду, демонструючи прихильність до співпраці, цілісності, інклюзивності, співчуття та прагнення до знань."
+          },
+          {
+            "tag": "Направлення та рекомендації",
+            "desc": "Під час відбору враховуватимуться рекомендації від авторитетних організацій, громадських лідерів чи інших зацікавлених сторін, залучених до підтримки українських біженців."
+          },
+          {
+            "tag": "Вплив і потенціал для змін",
+            "desc": "Перевага надаватиметься заявникам, справи яких потенційно можуть мати ширший позитивний вплив на життя інших українських біженців і сприятимуть розвитку правового захисту інтересів переміщеного населення."
+          }
+        ]
+      }
+    ],
+    "imgCover": "project-7.jpg"
   }
 ]
