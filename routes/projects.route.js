@@ -42,12 +42,16 @@ router.get('/title', (req, res) => {
         for(let project of projects) {
           const tempProject = []
           for(let translation of project.translations) {
-            tempProject.push({
-              language: translation.language,
-              title: translation.title
-            })
+            tempProject.push({  
+                language: translation.language,
+                title: translation.title
+              }
+            )
           }
-          data.push(tempProject)
+          data.push({
+            _id: project._id,
+            translations: tempProject
+          })
         }
         res.json(data)
       })
