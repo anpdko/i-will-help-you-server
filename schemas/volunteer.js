@@ -24,7 +24,7 @@ const volunteerAddSchema = Joi.object({
     })
   ),
   skills: Joi.array().items(Joi.string()),
-  comment: Joi.string(),
+  comment: Joi.string().allow(""),
   mailing: Joi.boolean(),
 });
 
@@ -50,7 +50,7 @@ const volunteerUpdateSchema = Joi.object({
     })
   ),
   skills: Joi.array().items(Joi.string()),
-  comment: Joi.string(),
+  comment: Joi.string().allow(""),
   mailing: Joi.boolean(),
 });
 

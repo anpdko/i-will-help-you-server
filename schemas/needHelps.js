@@ -8,16 +8,8 @@ const needHelpsAddSchema = Joi.object({
   email: Joi.string().pattern(emailRegexp).required(),
   phone: Joi.string().required(),
   typeOfAssistance: Joi.array(),
-  comment: Joi.string(),
-  // file: Joi.array()
-  //   .items(
-  //     Joi.object({
-  //       name: Joi.string().required(),
-  //       file: Joi.binary(),
-  //     })
-  //   )
-  //   .min(1)
-  //   .required(),
+  comment: Joi.string().allow(""),
+  file: Joi.array(),
   mailing: Joi.boolean(),
 });
 
@@ -27,7 +19,7 @@ const needHelpsUpdateSchema = Joi.object({
   phone: Joi.string(),
   typeOfAssistance: Joi.array(),
   email: Joi.string().pattern(emailRegexp),
-  // file: Joi.array()
+  file: Joi.array(),
   //   .items(
   //     Joi.object({
   //       name: Joi.string().required(),
@@ -36,7 +28,7 @@ const needHelpsUpdateSchema = Joi.object({
   //   )
   //   .min(1)
   //   .required(),
-  comment: Joi.string(),
+  comment: Joi.string().allow(""),
   mailing: Joi.boolean(),
 });
 

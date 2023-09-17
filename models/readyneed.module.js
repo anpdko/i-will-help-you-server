@@ -17,6 +17,7 @@ const VolunteerSchema = new Schema(
     phone: {
       type: String,
       required: true,
+      unique: true
     },
     country: {
       type: String,
