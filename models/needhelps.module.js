@@ -28,6 +28,7 @@ const needHelpsSchema = new Schema(
     }],
     comment: {
       type: String,
+      required: false,
       default: "",
     },
     mailing: {

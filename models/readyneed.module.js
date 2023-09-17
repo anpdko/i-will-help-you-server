@@ -62,6 +62,7 @@ const VolunteerSchema = new Schema(
     skills: [String],
     comment: {
       type: String,
+      required: false,
       default: "",
     },
     mailing: {
