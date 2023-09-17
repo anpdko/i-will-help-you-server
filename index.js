@@ -7,6 +7,7 @@ const path = require("path");
 const app = express();
 const { PORT = 5000, URL_MONGO } = process.env;
 
+//settings
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json({ extensions: true }));
 app.get("/", (req, res) => {
@@ -60,3 +61,4 @@ const start = async () => {
 };
 
 start();
+
