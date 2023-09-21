@@ -10,6 +10,11 @@ const ProjectsSchema = new mongoose.Schema({
          type: String,
          required: true,
       },
+      url: {
+         type: String,
+         required: true,
+         unique: true
+      },
       slogan: {
          type: String,
          required: true,
