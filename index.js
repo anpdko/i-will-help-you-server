@@ -14,10 +14,8 @@ app.get("/", (req, res) => {
   res.send(`Server listening on port: ${PORT}`);
 });
 
-app.use(
-  "/static/images",
-  express.static(path.join(__dirname, "static/images"))
-);
+app.use("/static/documents", express.static(path.join(__dirname, "static/documents")));
+app.use("/static/images", express.static(path.join(__dirname, "static/images")));
 
 app.get("/config", (req, res) => {
   res.send({
