@@ -4,11 +4,9 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
 const сronStart = require('./cron');
-const { inject } = require('@vercel/analytics');
 
 const app = express();
 сronStart();
-inject()
 
 const { PORT = 5000, URL_MONGO } = process.env;
 
