@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const {
-  newSheetVolunteers,
+  newAllSheetVolunteers,
   addSheetVolunteers,
 } = require("../controllers/sheet/volunteers");
 
-router.get("/new-sheet-volunteers", newSheetVolunteers);
+router.get("/new-sheet-volunteers", newAllSheetVolunteers);
 
 router.get("/add-sheet-volunteers", addSheetVolunteers);
 

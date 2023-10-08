@@ -50,6 +50,11 @@ function flattenObject(obj) {
        }
        result[key] = str;
      }
+
+     if(key === "createdAt"){
+      const createdAt = String(obj[key]);  
+      result[key] = createdAt.split("GMT")[0];
+    }
    }
    return result;
 }

@@ -5,11 +5,12 @@ const {flattenObject} = require("../../../helpers/flattenObject/flattenObjectVol
 const addSheetVolunteers = async (req, res) => {
   const doc = await getDocSheet();
   // const sheet = doc.sheetsByTitle["Лист28"];
-  const sheet = doc.sheetsByIndex[0];
+  const tableLength = doc.sheetsByIndex.length
+  const sheet = doc.sheetsByIndex[tableLength-1];
 
+  console.log(sheet.title)
   const rows = await sheet.getRows();
   // console.log(rows[rows.length - 1].get('_id'));
-
 
   // последний id из таблицы
   const idToSearchAfter = rows[rows.length - 1].get('_id')
