@@ -3,9 +3,13 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
-const cron = require("node-cron");
+
+const сronStart = require('./cron');
+
 
 const app = express();
+сronStart();
+
 const { PORT = 5000, URL_MONGO } = process.env;
 
 //settings
@@ -51,9 +55,6 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message });
 });
 
-// cron.schedule('* * * * *', () => {
-//   console.log('Задача выполняется каждую минуту');
-// });
 
 const start = async () => {
   try {

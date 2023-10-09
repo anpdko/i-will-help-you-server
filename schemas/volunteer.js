@@ -8,7 +8,7 @@ const volunteerAddSchema = Joi.object({
   dateOfBirth: Joi.string().required(),
   phone: Joi.string().required(),
   country: Joi.string().required(),
-  network: Joi.string(),
+  network: Joi.string().allow(""),
   email: Joi.string().pattern(emailRegexp).required(),
   daysVolunteer: Joi.array().items(
     Joi.object({
@@ -34,7 +34,7 @@ const volunteerUpdateSchema = Joi.object({
   dateOfBirth: Joi.string(),
   phone: Joi.string(),
   country: Joi.string(),
-  network: Joi.string(),
+  network: Joi.string().allow(""),
   email: Joi.string().pattern(emailRegexp),
   daysVolunteer: Joi.array().items(
     Joi.object({

@@ -1,7 +1,7 @@
-const newSheetVolunteers = require("./newSheetVolunteers");
+const newAllSheetVolunteers = require("./newAllSheetVolunteers");
 const addSheetVolunteers = require("./addSheetVolunteers");
 
 module.exports = {
-   newSheetVolunteers,
+   newAllSheetVolunteers,
    addSheetVolunteers
 };
