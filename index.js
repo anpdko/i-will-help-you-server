@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
-const cron = require('node-cron');
+const cron = require("node-cron");
 
 const app = express();
 const { PORT = 5000, URL_MONGO } = process.env;
@@ -15,8 +15,14 @@ app.get("/", (req, res) => {
   res.send(`Server listening on port: ${PORT}`);
 });
 
-app.use("/static/documents", express.static(path.join(__dirname, "static/documents")));
-app.use("/static/images", express.static(path.join(__dirname, "static/images")));
+app.use(
+  "/static/documents",
+  express.static(path.join(__dirname, "static/documents"))
+);
+app.use(
+  "/static/images",
+  express.static(path.join(__dirname, "static/images"))
+);
 
 app.get("/config", (req, res) => {
   res.send({
@@ -34,6 +40,7 @@ app.use("/api/needhelps", require("./routes/needhelps.route"));
 app.use("/api/sheets", require("./routes/sheets.route"));
 // app.use("/api/upload", require("./routes/upload.route"));
 // app.use("/api/upload-image", require("./routes/uploadImage.route"));
+app.use("/api/teams", require("./routes/teams.route"));
 
 app.use((res, req) => {
   res.status(404).json({ message: "Not Found" });
@@ -44,10 +51,9 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message });
 });
 
-
-cron.schedule('* * * * *', () => {
-  console.log('Задача выполняется каждую минуту');
-});
+// cron.schedule('* * * * *', () => {
+//   console.log('Задача выполняется каждую минуту');
+// });
 
 const start = async () => {
   try {
@@ -67,4 +73,3 @@ const start = async () => {
 };
 
 start();
-
